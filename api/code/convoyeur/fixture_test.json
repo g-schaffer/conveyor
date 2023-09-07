@@ -1,0 +1,87 @@
+[
+    {
+        "model": "convoyeur.package",
+        "fields": {
+            "id": "666001",
+            "uuid": "666001",
+            "destination": "Left",
+            "delivered": true,
+            "scanned": true,
+            "created_at": "2000-01-01 00:00",
+            "updated_at": "2000-01-01 00:00"
+            }
+    },
+    {
+        "model": "convoyeur.package",
+        "fields": {
+            "id": "666002",
+            "uuid": "666002",
+            "destination": "Left",
+            "delivered": true,
+            "scanned": true,
+            "created_at": "2000-01-01 00:00",
+            "updated_at": "2000-01-01 00:00"
+            }
+    },
+    {
+        "model": "convoyeur.package",
+        "fields": {
+            "id": "666002",
+            "uuid": "666002",
+            "destination": "Left",
+            "delivered": true,
+            "scanned": true,
+            "created_at": "2000-01-01 00:00",
+            "updated_at": "2000-01-01 00:00"
+            }
+    },
+    {
+        "model": "convoyeur.package",
+        "fields": {
+            "id": "666003",
+            "uuid": "666003",
+            "destination": "Left",
+            "delivered": true,
+            "scanned": true,
+            "created_at": "2000-01-01 00:00",
+            "updated_at": "2000-01-01 00:00"
+            }
+    },
+    {
+        "model": "convoyeur.package",
+        "fields": {
+            "id": "666004",
+            "uuid": "666004",
+            "destination": "Left",
+            "delivered": true,
+            "scanned": true,
+            "created_at": "2000-01-01 00:00",
+            "updated_at": "2000-01-01 00:00"
+            }
+    },
+    {
+        "model": "convoyeur.package",
+        "fields": {
+            "id": "666005",
+            "uuid": "666005",
+            "destination": "Left",
+            "delivered": true,
+            "scanned": true,
+            "created_at": "2000-01-01 00:00",
+            "updated_at": "2000-01-01 00:00"
+            }
+    },
+    {
+        "model": "convoyeur.package",
+        "fields": {
+            "id": "666006",
+            "uuid": "666006",
+            "destination": "Left",
+            "delivered": true,
+            "scanned": true,
+            "created_at": "2000-01-01 00:00",
+            "updated_at": "2000-01-01 00:00"
+            }
+    }
+
+]

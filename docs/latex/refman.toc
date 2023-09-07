@@ -1,0 +1,245 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager Class Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Member Function Documentation}{5}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}alarm()}{5}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}cantCallAPIAlarm()}{6}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}initWithPackageOnDeliveryAlarm()}{6}{subsubsection.3.1.2.3}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}packageToCloseAlarm()}{6}{subsubsection.3.1.2.4}%
+\contentsline {section}{\numberline {3.2}Go\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Plus2 Class Reference}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Constructor \& Destructor Documentation}{7}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}GoPlus2()}{7}{subsubsection.3.2.1.1}%
+\contentsline {subsection}{\numberline {3.2.2}Member Function Documentation}{7}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}begin()}{7}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}hub1\_a\_read\_value()}{8}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.3}hub1\_d\_o\_read\_value()}{8}{subsubsection.3.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.2.4}hub1\_d\_read\_value()}{8}{subsubsection.3.2.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.2.5}hub1\_set\_io()}{8}{subsubsection.3.2.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.2.6}hub1\_wire\_value()}{8}{subsubsection.3.2.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.2.7}hub2\_a\_read\_value()}{8}{subsubsection.3.2.2.7}%
+\contentsline {subsubsection}{\numberline {3.2.2.8}hub2\_d\_o\_read\_value()}{8}{subsubsection.3.2.2.8}%
+\contentsline {subsubsection}{\numberline {3.2.2.9}hub2\_d\_read\_value()}{9}{subsubsection.3.2.2.9}%
+\contentsline {subsubsection}{\numberline {3.2.2.10}hub2\_set\_io()}{9}{subsubsection.3.2.2.10}%
+\contentsline {subsubsection}{\numberline {3.2.2.11}hub2\_wire\_value()}{9}{subsubsection.3.2.2.11}%
+\contentsline {subsubsection}{\numberline {3.2.2.12}hub3\_a\_read\_value()}{9}{subsubsection.3.2.2.12}%
+\contentsline {subsubsection}{\numberline {3.2.2.13}hub3\_d\_o\_read\_value()}{9}{subsubsection.3.2.2.13}%
+\contentsline {subsubsection}{\numberline {3.2.2.14}hub3\_d\_read\_value()}{9}{subsubsection.3.2.2.14}%
+\contentsline {subsubsection}{\numberline {3.2.2.15}hub3\_set\_io()}{10}{subsubsection.3.2.2.15}%
+\contentsline {subsubsection}{\numberline {3.2.2.16}hub3\_wire\_value()}{10}{subsubsection.3.2.2.16}%
+\contentsline {subsubsection}{\numberline {3.2.2.17}Motor\_write\_speed()}{10}{subsubsection.3.2.2.17}%
+\contentsline {subsubsection}{\numberline {3.2.2.18}Servo\_write\_angle()}{10}{subsubsection.3.2.2.18}%
+\contentsline {subsubsection}{\numberline {3.2.2.19}Servo\_write\_plusewidth()}{10}{subsubsection.3.2.2.19}%
+\contentsline {section}{\numberline {3.3}GRBL Class Reference}{10}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Constructor \& Destructor Documentation}{11}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}GRBL()}{11}{subsubsection.3.3.1.1}%
+\contentsline {subsection}{\numberline {3.3.2}Member Function Documentation}{11}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Init()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{12}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Init()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{12}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Init()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{12}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}inLock()}{12}{subsubsection.3.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.3.2.5}readClean()}{12}{subsubsection.3.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.3.2.6}readIdle()}{12}{subsubsection.3.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.3.2.7}readLine()}{12}{subsubsection.3.3.2.7}%
+\contentsline {subsubsection}{\numberline {3.3.2.8}readStatus()}{13}{subsubsection.3.3.2.8}%
+\contentsline {subsubsection}{\numberline {3.3.2.9}sendByte()}{13}{subsubsection.3.3.2.9}%
+\contentsline {subsubsection}{\numberline {3.3.2.10}sendBytes()}{13}{subsubsection.3.3.2.10}%
+\contentsline {subsubsection}{\numberline {3.3.2.11}sendGcode()}{13}{subsubsection.3.3.2.11}%
+\contentsline {subsubsection}{\numberline {3.3.2.12}setMode()}{13}{subsubsection.3.3.2.12}%
+\contentsline {subsubsection}{\numberline {3.3.2.13}setMotor()}{13}{subsubsection.3.3.2.13}%
+\contentsline {subsubsection}{\numberline {3.3.2.14}unLock()}{14}{subsubsection.3.3.2.14}%
+\contentsline {subsubsection}{\numberline {3.3.2.15}waitIdle()}{14}{subsubsection.3.3.2.15}%
+\contentsline {subsection}{\numberline {3.3.3}Member Data Documentation}{14}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}\_addr}{14}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}\_Wire}{14}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}addr}{14}{subsubsection.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}mode}{14}{subsubsection.3.3.3.4}%
+\contentsline {section}{\numberline {3.4}M5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI Class Reference}{14}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Constructor \& Destructor Documentation}{15}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}M5UI()}{15}{subsubsection.3.4.1.1}%
+\contentsline {subsection}{\numberline {3.4.2}Member Function Documentation}{15}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}init()}{15}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}initProgressBar()}{15}{subsubsection.3.4.2.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.3}notificationRFIDReadWithError()}{16}{subsubsection.3.4.2.3}%
+\contentsline {subsubsection}{\numberline {3.4.2.4}notificationRFIDReadWithSuccess()}{16}{subsubsection.3.4.2.4}%
+\contentsline {subsubsection}{\numberline {3.4.2.5}printTotalPackagesOnDelivery()}{16}{subsubsection.3.4.2.5}%
+\contentsline {subsubsection}{\numberline {3.4.2.6}printWaitPackages()}{16}{subsubsection.3.4.2.6}%
+\contentsline {subsubsection}{\numberline {3.4.2.7}runLight()}{16}{subsubsection.3.4.2.7}%
+\contentsline {subsubsection}{\numberline {3.4.2.8}speakerBipWithLight()}{17}{subsubsection.3.4.2.8}%
+\contentsline {section}{\numberline {3.5}Package Class Reference}{17}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Constructor \& Destructor Documentation}{18}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Package()}{18}{subsubsection.3.5.1.1}%
+\contentsline {subsection}{\numberline {3.5.2}Member Function Documentation}{18}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.1}getDestination()}{18}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {3.5.2.2}getMotorStep()}{18}{subsubsection.3.5.2.2}%
+\contentsline {subsubsection}{\numberline {3.5.2.3}getUuid()}{19}{subsubsection.3.5.2.3}%
+\contentsline {subsubsection}{\numberline {3.5.2.4}isDelivered()}{19}{subsubsection.3.5.2.4}%
+\contentsline {subsubsection}{\numberline {3.5.2.5}toJson()}{19}{subsubsection.3.5.2.5}%
+\contentsline {subsection}{\numberline {3.5.3}Member Data Documentation}{19}{subsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.3.1}INTERVAL\_RFID\_TO\_DESTINATION}{19}{subsubsection.3.5.3.1}%
+\contentsline {subsubsection}{\numberline {3.5.3.2}m\_destination}{20}{subsubsection.3.5.3.2}%
+\contentsline {subsubsection}{\numberline {3.5.3.3}m\_motorStep}{20}{subsubsection.3.5.3.3}%
+\contentsline {subsubsection}{\numberline {3.5.3.4}m\_uuid}{20}{subsubsection.3.5.3.4}%
+\contentsline {section}{\numberline {3.6}Queu Class Reference}{20}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Constructor \& Destructor Documentation}{22}{subsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.1.1}Queu()}{22}{subsubsection.3.6.1.1}%
+\contentsline {subsection}{\numberline {3.6.2}Member Function Documentation}{22}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}append()}{22}{subsubsection.3.6.2.1}%
+\contentsline {subsubsection}{\numberline {3.6.2.2}appendWithUuid()}{22}{subsubsection.3.6.2.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.3}checkIfFrontPackageIsDelivered()}{23}{subsubsection.3.6.2.3}%
+\contentsline {subsubsection}{\numberline {3.6.2.4}clear()}{23}{subsubsection.3.6.2.4}%
+\contentsline {subsubsection}{\numberline {3.6.2.5}exist()}{23}{subsubsection.3.6.2.5}%
+\contentsline {subsubsection}{\numberline {3.6.2.6}getAll()}{23}{subsubsection.3.6.2.6}%
+\contentsline {subsubsection}{\numberline {3.6.2.7}init()}{24}{subsubsection.3.6.2.7}%
+\contentsline {subsubsection}{\numberline {3.6.2.8}initMotor()}{24}{subsubsection.3.6.2.8}%
+\contentsline {subsubsection}{\numberline {3.6.2.9}initWifi()}{24}{subsubsection.3.6.2.9}%
+\contentsline {subsubsection}{\numberline {3.6.2.10}lastEventUI()}{24}{subsubsection.3.6.2.10}%
+\contentsline {subsubsection}{\numberline {3.6.2.11}motorForward()}{24}{subsubsection.3.6.2.11}%
+\contentsline {subsubsection}{\numberline {3.6.2.12}pop\_front()}{25}{subsubsection.3.6.2.12}%
+\contentsline {subsubsection}{\numberline {3.6.2.13}size()}{25}{subsubsection.3.6.2.13}%
+\contentsline {subsubsection}{\numberline {3.6.2.14}toJson()}{25}{subsubsection.3.6.2.14}%
+\contentsline {subsubsection}{\numberline {3.6.2.15}updateServoMotor()}{25}{subsubsection.3.6.2.15}%
+\contentsline {subsubsection}{\numberline {3.6.2.16}uuidExist()}{25}{subsubsection.3.6.2.16}%
+\contentsline {subsection}{\numberline {3.6.3}Member Data Documentation}{26}{subsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.3.1}client}{26}{subsubsection.3.6.3.1}%
+\contentsline {subsubsection}{\numberline {3.6.3.2}clientWifi}{26}{subsubsection.3.6.3.2}%
+\contentsline {subsubsection}{\numberline {3.6.3.3}MIN\_INTERVAL\_BETWEEN\_PACKAGE}{26}{subsubsection.3.6.3.3}%
+\contentsline {subsubsection}{\numberline {3.6.3.4}motor}{26}{subsubsection.3.6.3.4}%
+\contentsline {subsubsection}{\numberline {3.6.3.5}motorStepCounter}{26}{subsubsection.3.6.3.5}%
+\contentsline {subsubsection}{\numberline {3.6.3.6}queu}{27}{subsubsection.3.6.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.3.7}servoMotor}{27}{subsubsection.3.6.3.7}%
+\contentsline {subsubsection}{\numberline {3.6.3.8}SPEED\_STEP\_MOTOR}{27}{subsubsection.3.6.3.8}%
+\contentsline {section}{\numberline {3.7}Rfid\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Driver Class Reference}{27}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Constructor \& Destructor Documentation}{28}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}RfidDriver()}{28}{subsubsection.3.7.1.1}%
+\contentsline {subsection}{\numberline {3.7.2}Member Function Documentation}{28}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}getTagDetected()}{28}{subsubsection.3.7.2.1}%
+\contentsline {subsubsection}{\numberline {3.7.2.2}init()}{29}{subsubsection.3.7.2.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.3}readRfid()}{29}{subsubsection.3.7.2.3}%
+\contentsline {subsubsection}{\numberline {3.7.2.4}setTagDetected()}{29}{subsubsection.3.7.2.4}%
+\contentsline {subsubsection}{\numberline {3.7.2.5}ShowReaderDetails()}{29}{subsubsection.3.7.2.5}%
+\contentsline {subsubsection}{\numberline {3.7.2.6}vTaskRFIDInterrupt()}{29}{subsubsection.3.7.2.6}%
+\contentsline {subsection}{\numberline {3.7.3}Member Data Documentation}{30}{subsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.3.1}variables}{30}{subsubsection.3.7.3.1}%
+\contentsline {section}{\numberline {3.8}Servo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motor Class Reference}{30}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Constructor \& Destructor Documentation}{31}{subsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.1.1}ServoMotor()}{31}{subsubsection.3.8.1.1}%
+\contentsline {subsection}{\numberline {3.8.2}Member Function Documentation}{31}{subsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}turn()}{31}{subsubsection.3.8.2.1}%
+\contentsline {subsubsection}{\numberline {3.8.2.2}turnLeft()}{31}{subsubsection.3.8.2.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.3}turnRight()}{32}{subsubsection.3.8.2.3}%
+\contentsline {subsubsection}{\numberline {3.8.2.4}turnStraight()}{32}{subsubsection.3.8.2.4}%
+\contentsline {subsection}{\numberline {3.8.3}Member Data Documentation}{32}{subsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.3.1}angleLeft}{32}{subsubsection.3.8.3.1}%
+\contentsline {subsubsection}{\numberline {3.8.3.2}angleRight}{32}{subsubsection.3.8.3.2}%
+\contentsline {subsubsection}{\numberline {3.8.3.3}angleStraight}{32}{subsubsection.3.8.3.3}%
+\contentsline {subsubsection}{\numberline {3.8.3.4}goPlus}{32}{subsubsection.3.8.3.4}%
+\contentsline {subsubsection}{\numberline {3.8.3.5}speed}{33}{subsubsection.3.8.3.5}%
+\contentsline {section}{\numberline {3.9}Rfid\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Driver\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Variables Struct Reference}{33}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}Member Data Documentation}{33}{subsection.3.9.1}%
+\contentsline {subsubsection}{\numberline {3.9.1.1}mfrc522}{33}{subsubsection.3.9.1.1}%
+\contentsline {subsubsection}{\numberline {3.9.1.2}tagDetected}{33}{subsubsection.3.9.1.2}%
+\contentsline {section}{\numberline {3.10}Wifi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils Class Reference}{33}{section.3.10}%
+\contentsline {subsection}{\numberline {3.10.1}Member Function Documentation}{34}{subsection.3.10.1}%
+\contentsline {subsubsection}{\numberline {3.10.1.1}cleanOnDeliveryPackages()}{34}{subsubsection.3.10.1.1}%
+\contentsline {subsubsection}{\numberline {3.10.1.2}connect()}{34}{subsubsection.3.10.1.2}%
+\contentsline {subsubsection}{\numberline {3.10.1.3}getOnDeliveryPackage()}{35}{subsubsection.3.10.1.3}%
+\contentsline {subsubsection}{\numberline {3.10.1.4}getPackageDestination()}{35}{subsubsection.3.10.1.4}%
+\contentsline {subsubsection}{\numberline {3.10.1.5}isConnected()}{35}{subsubsection.3.10.1.5}%
+\contentsline {subsubsection}{\numberline {3.10.1.6}postAlarm()}{35}{subsubsection.3.10.1.6}%
+\contentsline {subsubsection}{\numberline {3.10.1.7}postDeliveredPackage()}{36}{subsubsection.3.10.1.7}%
+\contentsline {subsubsection}{\numberline {3.10.1.8}postResetAlarm()}{36}{subsubsection.3.10.1.8}%
+\contentsline {subsubsection}{\numberline {3.10.1.9}sendRequest()}{36}{subsubsection.3.10.1.9}%
+\contentsline {subsection}{\numberline {3.10.2}Member Data Documentation}{37}{subsection.3.10.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.1}URL\_ALARM}{37}{subsubsection.3.10.2.1}%
+\contentsline {subsubsection}{\numberline {3.10.2.2}URL\_DELIVERED}{37}{subsubsection.3.10.2.2}%
+\contentsline {subsubsection}{\numberline {3.10.2.3}URL\_DESTINATION}{37}{subsubsection.3.10.2.3}%
+\contentsline {subsubsection}{\numberline {3.10.2.4}URL\_ON\_DELIVERY}{37}{subsubsection.3.10.2.4}%
+\contentsline {subsubsection}{\numberline {3.10.2.5}URL\_RESET\_ALARM}{37}{subsubsection.3.10.2.5}%
+\contentsline {chapter}{\numberline {4}File Documentation}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.cpp File Reference}{39}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{39}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Alarm\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Manager.h File Reference}{40}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{41}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Enumeration Type Documentation}{41}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Criticity}{41}{subsubsection.4.2.2.1}%
+\contentsline {section}{\numberline {4.3}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Go\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Plus2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Go\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Plus2.cpp File Reference}{42}{section.4.3}%
+\contentsline {section}{\numberline {4.4}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Go\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Plus2/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Go\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Plus2.h File Reference}{42}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Macro Definition Documentation}{44}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}GOPLUS\_ADDR}{44}{subsubsection.4.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}HUB1\_R\_ADDR}{44}{subsubsection.4.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.4.1.3}HUB1\_R\_O\_ADDR}{44}{subsubsection.4.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.4.1.4}HUB1\_W\_ADDR}{44}{subsubsection.4.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.4.1.5}HUB2\_R\_ADDR}{44}{subsubsection.4.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.4.1.6}HUB2\_R\_O\_ADDR}{44}{subsubsection.4.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.4.1.7}HUB2\_W\_ADDR}{45}{subsubsection.4.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.4.1.8}HUB3\_R\_ADDR}{45}{subsubsection.4.4.1.8}%
+\contentsline {subsubsection}{\numberline {4.4.1.9}HUB3\_R\_O\_ADDR}{45}{subsubsection.4.4.1.9}%
+\contentsline {subsubsection}{\numberline {4.4.1.10}HUB3\_W\_ADDR}{45}{subsubsection.4.4.1.10}%
+\contentsline {subsubsection}{\numberline {4.4.1.11}HUB\_IO\_SET}{45}{subsubsection.4.4.1.11}%
+\contentsline {subsubsection}{\numberline {4.4.1.12}HUB\_READ\_ANALOG}{45}{subsubsection.4.4.1.12}%
+\contentsline {subsubsection}{\numberline {4.4.1.13}HUB\_READ\_DIGITAL}{45}{subsubsection.4.4.1.13}%
+\contentsline {subsubsection}{\numberline {4.4.1.14}HUB\_READ\_O\_DIGITAL}{45}{subsubsection.4.4.1.14}%
+\contentsline {subsubsection}{\numberline {4.4.1.15}HUB\_WIRE}{46}{subsubsection.4.4.1.15}%
+\contentsline {subsubsection}{\numberline {4.4.1.16}MOTOR\_ADDR}{46}{subsubsection.4.4.1.16}%
+\contentsline {subsubsection}{\numberline {4.4.1.17}MOTOR\_NUM0}{46}{subsubsection.4.4.1.17}%
+\contentsline {subsubsection}{\numberline {4.4.1.18}MOTOR\_NUM1}{46}{subsubsection.4.4.1.18}%
+\contentsline {subsubsection}{\numberline {4.4.1.19}PLUSE\_ADDR}{46}{subsubsection.4.4.1.19}%
+\contentsline {subsubsection}{\numberline {4.4.1.20}SERVO\_ADDR}{46}{subsubsection.4.4.1.20}%
+\contentsline {subsubsection}{\numberline {4.4.1.21}SERVO\_NUM0}{46}{subsubsection.4.4.1.21}%
+\contentsline {subsubsection}{\numberline {4.4.1.22}SERVO\_NUM0\_PW}{46}{subsubsection.4.4.1.22}%
+\contentsline {subsubsection}{\numberline {4.4.1.23}SERVO\_NUM1}{47}{subsubsection.4.4.1.23}%
+\contentsline {subsubsection}{\numberline {4.4.1.24}SERVO\_NUM1\_PW}{47}{subsubsection.4.4.1.24}%
+\contentsline {subsubsection}{\numberline {4.4.1.25}SERVO\_NUM2}{47}{subsubsection.4.4.1.25}%
+\contentsline {subsubsection}{\numberline {4.4.1.26}SERVO\_NUM2\_PW}{47}{subsubsection.4.4.1.26}%
+\contentsline {subsubsection}{\numberline {4.4.1.27}SERVO\_NUM3}{47}{subsubsection.4.4.1.27}%
+\contentsline {subsubsection}{\numberline {4.4.1.28}SERVO\_NUM3\_PW}{47}{subsubsection.4.4.1.28}%
+\contentsline {section}{\numberline {4.5}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}GRBL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MODULE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}GRBL13.2.cpp File Reference}{48}{section.4.5}%
+\contentsline {section}{\numberline {4.6}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}GRBL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}MODULE\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}GRBL13.2.h File Reference}{48}{section.4.6}%
+\contentsline {section}{\numberline {4.7}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI.cpp File Reference}{49}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{50}{subsection.4.7.1}%
+\contentsline {section}{\numberline {4.8}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}M5\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}UI.h File Reference}{50}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{51}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Macro Definition Documentation}{51}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}M5STACK\_FIRE\_NEO\_DATA\_PIN}{51}{subsubsection.4.8.2.1}%
+\contentsline {subsubsection}{\numberline {4.8.2.2}M5STACK\_FIRE\_NEO\_NUM\_LEDS}{51}{subsubsection.4.8.2.2}%
+\contentsline {section}{\numberline {4.9}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Package/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Package.cpp File Reference}{52}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{52}{subsection.4.9.1}%
+\contentsline {section}{\numberline {4.10}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Package/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Package.h File Reference}{52}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{53}{subsection.4.10.1}%
+\contentsline {section}{\numberline {4.11}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Queu/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Queu.cpp File Reference}{53}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Detailed Description}{54}{subsection.4.11.1}%
+\contentsline {section}{\numberline {4.12}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Queu/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Queu.h File Reference}{54}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{55}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Macro Definition Documentation}{55}{subsection.4.12.2}%
+\contentsline {subsubsection}{\numberline {4.12.2.1}STEP\_MOTOR\_SCL}{56}{subsubsection.4.12.2.1}%
+\contentsline {subsubsection}{\numberline {4.12.2.2}STEP\_MOTOR\_SDA}{56}{subsubsection.4.12.2.2}%
+\contentsline {subsubsection}{\numberline {4.12.2.3}STEPMOTOR\_I2C\_ADDR}{56}{subsubsection.4.12.2.3}%
+\contentsline {section}{\numberline {4.13}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rfid\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Driver/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rfid\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Driver.cpp File Reference}{56}{section.4.13}%
+\contentsline {section}{\numberline {4.14}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rfid\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Driver/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Rfid\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Driver.h File Reference}{56}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Macro Definition Documentation}{57}{subsection.4.14.1}%
+\contentsline {subsubsection}{\numberline {4.14.1.1}RST\_PIN}{57}{subsubsection.4.14.1.1}%
+\contentsline {subsubsection}{\numberline {4.14.1.2}SS\_PIN}{58}{subsubsection.4.14.1.2}%
+\contentsline {section}{\numberline {4.15}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motor.cpp File Reference}{58}{section.4.15}%
+\contentsline {section}{\numberline {4.16}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motor/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Servo\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Motor.h File Reference}{58}{section.4.16}%
+\contentsline {section}{\numberline {4.17}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Wifi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Wifi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils.cpp File Reference}{60}{section.4.17}%
+\contentsline {section}{\numberline {4.18}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/lib/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Wifi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Wifi\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Utils.h File Reference}{60}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Macro Definition Documentation}{61}{subsection.4.18.1}%
+\contentsline {subsubsection}{\numberline {4.18.1.1}SERVER\_ADDRESS}{61}{subsubsection.4.18.1.1}%
+\contentsline {subsubsection}{\numberline {4.18.1.2}WIFI\_PASSWORD}{61}{subsubsection.4.18.1.2}%
+\contentsline {subsubsection}{\numberline {4.18.1.3}WIFI\_SSID}{62}{subsubsection.4.18.1.3}%
+\contentsline {section}{\numberline {4.19}es\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}App/src/main.cpp File Reference}{62}{section.4.19}%
+\contentsline {subsection}{\numberline {4.19.1}Detailed Description}{62}{subsection.4.19.1}%
+\contentsline {subsection}{\numberline {4.19.2}Function Documentation}{63}{subsection.4.19.2}%
+\contentsline {subsubsection}{\numberline {4.19.2.1}loop()}{63}{subsubsection.4.19.2.1}%
+\contentsline {subsubsection}{\numberline {4.19.2.2}packageListener()}{63}{subsubsection.4.19.2.2}%
+\contentsline {subsubsection}{\numberline {4.19.2.3}setup()}{63}{subsubsection.4.19.2.3}%
+\contentsline {subsection}{\numberline {4.19.3}Variable Documentation}{63}{subsection.4.19.3}%
+\contentsline {subsubsection}{\numberline {4.19.3.1}MIN\_DELAY\_STEP\_MOTOR}{63}{subsubsection.4.19.3.1}%
+\contentsline {subsubsection}{\numberline {4.19.3.2}queu}{63}{subsubsection.4.19.3.2}%
+\contentsline {subsubsection}{\numberline {4.19.3.3}rfid}{63}{subsubsection.4.19.3.3}%
+\contentsline {chapter}{Index}{65}{section*.77}%

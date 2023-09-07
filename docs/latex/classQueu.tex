@@ -1,0 +1,362 @@
+\hypertarget{classQueu}{}\doxysection{Queu Class Reference}
+\label{classQueu}\index{Queu@{Queu}}
+
+
+{\ttfamily \#include $<$Queu.\+h$>$}
+
+
+
+Collaboration diagram for Queu\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{classQueu__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classQueu_ab3d4c8699de91656801e46296dff1114}{Queu}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classQueu}{Queu}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_a5d111f138c2ac0de6d782065b3a69f4c}{motor\+Forward}} ()
+\begin{DoxyCompactList}\small\item\em Move to forward the motor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_acc4b83281809dab9080ea8e8c7f78177}{init\+Motor}} ()
+\begin{DoxyCompactList}\small\item\em Init the motor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_afd2cb30bdf896baf08e756e8b838b264}{init}} ()
+\begin{DoxyCompactList}\small\item\em Init the queue. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_aa0efc5898c98f1a3dc0715a78d05f6f8}{init\+Wifi}} ()
+\begin{DoxyCompactList}\small\item\em Init the wifi. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_aabdb58c2da09e9cfb8e8b6c77095fb2e}{check\+If\+Front\+Package\+Is\+Delivered}} ()
+\begin{DoxyCompactList}\small\item\em Check if the front package is delivered. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_aaf29f9c16c7ba6e0bb71e319f3720b03}{clear}} ()
+\begin{DoxyCompactList}\small\item\em clear queue \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_a85cb69595f1c117073248fa7113352e0}{last\+Event\+UI}} (bool is\+Added, String uuid)
+\begin{DoxyCompactList}\small\item\em print last event on m5stack screen \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_ae46f605e7710e3dcbaf7cc8362d0992b}{update\+Servo\+Motor}} ()
+\begin{DoxyCompactList}\small\item\em Update servomotoro destination according to front queue value. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classQueu_a558cfa3eb500becea50f1ed90e9b94bc}{uuid\+Exist}} (String uuid)
+\begin{DoxyCompactList}\small\item\em get destination of specific package by uuid \end{DoxyCompactList}\item 
+std\+::list$<$ \mbox{\hyperlink{classPackage}{Package}} $>$ \mbox{\hyperlink{classQueu_a1c3a493c506c4be872892105e010aa7d}{get\+All}} ()
+\begin{DoxyCompactList}\small\item\em Get the All destination. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classQueu_acc1056f7d96c81b1b61c21c313fe3563}{to\+Json}} ()
+\begin{DoxyCompactList}\small\item\em string to json \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_a01a516e05045180255a2d9545330c8e3}{append\+With\+Uuid}} (String uuid)
+\begin{DoxyCompactList}\small\item\em append package to queue \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classQueu_a7913e1415988a910ed42e0a0cd475611}{pop\+\_\+front}} ()
+\begin{DoxyCompactList}\small\item\em pop the Front package \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classQueu_a416d3013c2771e67f8a18878488a29c3}{size}} ()
+\begin{DoxyCompactList}\small\item\em Get the Size queue. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGRBL}{GRBL}} \mbox{\hyperlink{classQueu_aee1d3b3d7dc4cd246c979fb5cb2f7b7b}{motor}} = \mbox{\hyperlink{classGRBL}{GRBL}}(\mbox{\hyperlink{Queu_8h_a70b7745e2aab9d369da6e9fcee75be61}{STEPMOTOR\+\_\+\+I2\+C\+\_\+\+ADDR}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classQueu_a19d3867202bddad68d561468288e9105}{append}} (\mbox{\hyperlink{classPackage}{Package}} package)
+\begin{DoxyCompactList}\small\item\em Append package to queue. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classQueu_a1bfa8cc20998ae802884f23731b67ad2}{exist}} (\mbox{\hyperlink{classPackage}{Package}} package)
+\begin{DoxyCompactList}\small\item\em Check if the package is delivered. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{classQueu_a65e0647efbba63a580c6b32ae6f4892b}{SPEED\+\_\+\+STEP\+\_\+\+MOTOR}} = 100
+\item 
+const int \mbox{\hyperlink{classQueu_a7ca3530e55c6c1e9841e2017cbdc1fa2}{MIN\+\_\+\+INTERVAL\+\_\+\+BETWEEN\+\_\+\+PACKAGE}} = 5
+\item 
+uint32\+\_\+t \mbox{\hyperlink{classQueu_a16c0f534f26e3b55061a200288d0d95a}{motor\+Step\+Counter}} = 0
+\item 
+\mbox{\hyperlink{classServoMotor}{Servo\+Motor}} \mbox{\hyperlink{classQueu_a3b437046f29fd55e75396e49eb061d03}{servo\+Motor}}
+\item 
+\mbox{\hyperlink{classWifiUtils}{Wifi\+Utils}} \mbox{\hyperlink{classQueu_ac5c996b94bff0ad9077b812ce3c93087}{client\+Wifi}} = \mbox{\hyperlink{classWifiUtils}{Wifi\+Utils}}()
+\item 
+\mbox{\hyperlink{classWifiUtils}{Wifi\+Utils}} \mbox{\hyperlink{classQueu_abef9a485942d50ef2ef40c631159d9ac}{client}} = \mbox{\hyperlink{classWifiUtils}{Wifi\+Utils}}()
+\item 
+std\+::list$<$ \mbox{\hyperlink{classPackage}{Package}} $>$ \mbox{\hyperlink{classQueu_abd46651a43870e639ed6d1a4a3393c57}{queu}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classQueu_ab3d4c8699de91656801e46296dff1114}\label{classQueu_ab3d4c8699de91656801e46296dff1114}} 
+\index{Queu@{Queu}!Queu@{Queu}}
+\index{Queu@{Queu}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{Queu()}{Queu()}}
+{\footnotesize\ttfamily Queu\+::\+Queu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classQueu}{Queu}} object. 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classQueu}{Queu}} 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classQueu_a19d3867202bddad68d561468288e9105}\label{classQueu_a19d3867202bddad68d561468288e9105}} 
+\index{Queu@{Queu}!append@{append}}
+\index{append@{append}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{append()}{append()}}
+{\footnotesize\ttfamily bool Queu\+::append (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPackage}{Package}}}]{package }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Append package to queue. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em package} & \mbox{\hyperlink{classPackage}{Package}} to append\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true \mbox{\hyperlink{classPackage}{Package}} is queued 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classQueu_a01a516e05045180255a2d9545330c8e3}\label{classQueu_a01a516e05045180255a2d9545330c8e3}} 
+\index{Queu@{Queu}!appendWithUuid@{appendWithUuid}}
+\index{appendWithUuid@{appendWithUuid}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{appendWithUuid()}{appendWithUuid()}}
+{\footnotesize\ttfamily void Queu\+::append\+With\+Uuid (\begin{DoxyParamCaption}\item[{String}]{uuid }\end{DoxyParamCaption})}
+
+
+
+append package to queue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uuid} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classQueu_aabdb58c2da09e9cfb8e8b6c77095fb2e}\label{classQueu_aabdb58c2da09e9cfb8e8b6c77095fb2e}} 
+\index{Queu@{Queu}!checkIfFrontPackageIsDelivered@{checkIfFrontPackageIsDelivered}}
+\index{checkIfFrontPackageIsDelivered@{checkIfFrontPackageIsDelivered}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{checkIfFrontPackageIsDelivered()}{checkIfFrontPackageIsDelivered()}}
+{\footnotesize\ttfamily void Queu\+::check\+If\+Front\+Package\+Is\+Delivered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Check if the front package is delivered. 
+
+\mbox{\Hypertarget{classQueu_aaf29f9c16c7ba6e0bb71e319f3720b03}\label{classQueu_aaf29f9c16c7ba6e0bb71e319f3720b03}} 
+\index{Queu@{Queu}!clear@{clear}}
+\index{clear@{clear}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Queu\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+clear queue 
+
+\mbox{\Hypertarget{classQueu_a1bfa8cc20998ae802884f23731b67ad2}\label{classQueu_a1bfa8cc20998ae802884f23731b67ad2}} 
+\index{Queu@{Queu}!exist@{exist}}
+\index{exist@{exist}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{exist()}{exist()}}
+{\footnotesize\ttfamily bool Queu\+::exist (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPackage}{Package}}}]{package }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Check if the package is delivered. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em package} & \mbox{\hyperlink{classPackage}{Package}} to check\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true \mbox{\hyperlink{classPackage}{Package}} is delivered 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classQueu_a1c3a493c506c4be872892105e010aa7d}\label{classQueu_a1c3a493c506c4be872892105e010aa7d}} 
+\index{Queu@{Queu}!getAll@{getAll}}
+\index{getAll@{getAll}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{getAll()}{getAll()}}
+{\footnotesize\ttfamily std\+::list$<$ \mbox{\hyperlink{classPackage}{Package}} $>$ Queu\+::get\+All (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the All destination. 
+
+\begin{DoxyReturn}{Returns}
+std\+::list$<$\+Package$>$ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classQueu_afd2cb30bdf896baf08e756e8b838b264}\label{classQueu_afd2cb30bdf896baf08e756e8b838b264}} 
+\index{Queu@{Queu}!init@{init}}
+\index{init@{init}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Queu\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Init the queue. 
+
+init queue \mbox{\Hypertarget{classQueu_acc4b83281809dab9080ea8e8c7f78177}\label{classQueu_acc4b83281809dab9080ea8e8c7f78177}} 
+\index{Queu@{Queu}!initMotor@{initMotor}}
+\index{initMotor@{initMotor}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{initMotor()}{initMotor()}}
+{\footnotesize\ttfamily void Queu\+::init\+Motor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Init the motor. 
+
+\mbox{\Hypertarget{classQueu_aa0efc5898c98f1a3dc0715a78d05f6f8}\label{classQueu_aa0efc5898c98f1a3dc0715a78d05f6f8}} 
+\index{Queu@{Queu}!initWifi@{initWifi}}
+\index{initWifi@{initWifi}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{initWifi()}{initWifi()}}
+{\footnotesize\ttfamily void Queu\+::init\+Wifi (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Init the wifi. 
+
+init wifi \mbox{\Hypertarget{classQueu_a85cb69595f1c117073248fa7113352e0}\label{classQueu_a85cb69595f1c117073248fa7113352e0}} 
+\index{Queu@{Queu}!lastEventUI@{lastEventUI}}
+\index{lastEventUI@{lastEventUI}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{lastEventUI()}{lastEventUI()}}
+{\footnotesize\ttfamily void Queu\+::last\+Event\+UI (\begin{DoxyParamCaption}\item[{bool}]{is\+Added,  }\item[{String}]{uuid }\end{DoxyParamCaption})}
+
+
+
+print last event on m5stack screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em is\+Added} & \\
+\hline
+{\em uuid} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classQueu_a5d111f138c2ac0de6d782065b3a69f4c}\label{classQueu_a5d111f138c2ac0de6d782065b3a69f4c}} 
+\index{Queu@{Queu}!motorForward@{motorForward}}
+\index{motorForward@{motorForward}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{motorForward()}{motorForward()}}
+{\footnotesize\ttfamily void Queu\+::motor\+Forward (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Move to forward the motor. 
+
+\mbox{\Hypertarget{classQueu_a7913e1415988a910ed42e0a0cd475611}\label{classQueu_a7913e1415988a910ed42e0a0cd475611}} 
+\index{Queu@{Queu}!pop\_front@{pop\_front}}
+\index{pop\_front@{pop\_front}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{pop\_front()}{pop\_front()}}
+{\footnotesize\ttfamily void Queu\+::pop\+\_\+front (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+pop the Front package 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classPackage}{Package}} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classQueu_a416d3013c2771e67f8a18878488a29c3}\label{classQueu_a416d3013c2771e67f8a18878488a29c3}} 
+\index{Queu@{Queu}!size@{size}}
+\index{size@{size}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily int Queu\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Size queue. 
+
+\begin{DoxyReturn}{Returns}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classQueu_acc1056f7d96c81b1b61c21c313fe3563}\label{classQueu_acc1056f7d96c81b1b61c21c313fe3563}} 
+\index{Queu@{Queu}!toJson@{toJson}}
+\index{toJson@{toJson}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{toJson()}{toJson()}}
+{\footnotesize\ttfamily String Queu\+::to\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+string to json 
+
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classQueu_ae46f605e7710e3dcbaf7cc8362d0992b}\label{classQueu_ae46f605e7710e3dcbaf7cc8362d0992b}} 
+\index{Queu@{Queu}!updateServoMotor@{updateServoMotor}}
+\index{updateServoMotor@{updateServoMotor}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{updateServoMotor()}{updateServoMotor()}}
+{\footnotesize\ttfamily void Queu\+::update\+Servo\+Motor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Update servomotoro destination according to front queue value. 
+
+\mbox{\Hypertarget{classQueu_a558cfa3eb500becea50f1ed90e9b94bc}\label{classQueu_a558cfa3eb500becea50f1ed90e9b94bc}} 
+\index{Queu@{Queu}!uuidExist@{uuidExist}}
+\index{uuidExist@{uuidExist}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{uuidExist()}{uuidExist()}}
+{\footnotesize\ttfamily String Queu\+::uuid\+Exist (\begin{DoxyParamCaption}\item[{String}]{uuid }\end{DoxyParamCaption})}
+
+
+
+get destination of specific package by uuid 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uuid} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classQueu_abef9a485942d50ef2ef40c631159d9ac}\label{classQueu_abef9a485942d50ef2ef40c631159d9ac}} 
+\index{Queu@{Queu}!client@{client}}
+\index{client@{client}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{client}{client}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWifiUtils}{Wifi\+Utils}} Queu\+::client = \mbox{\hyperlink{classWifiUtils}{Wifi\+Utils}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQueu_ac5c996b94bff0ad9077b812ce3c93087}\label{classQueu_ac5c996b94bff0ad9077b812ce3c93087}} 
+\index{Queu@{Queu}!clientWifi@{clientWifi}}
+\index{clientWifi@{clientWifi}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{clientWifi}{clientWifi}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classWifiUtils}{Wifi\+Utils}} Queu\+::client\+Wifi = \mbox{\hyperlink{classWifiUtils}{Wifi\+Utils}}()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQueu_a7ca3530e55c6c1e9841e2017cbdc1fa2}\label{classQueu_a7ca3530e55c6c1e9841e2017cbdc1fa2}} 
+\index{Queu@{Queu}!MIN\_INTERVAL\_BETWEEN\_PACKAGE@{MIN\_INTERVAL\_BETWEEN\_PACKAGE}}
+\index{MIN\_INTERVAL\_BETWEEN\_PACKAGE@{MIN\_INTERVAL\_BETWEEN\_PACKAGE}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{MIN\_INTERVAL\_BETWEEN\_PACKAGE}{MIN\_INTERVAL\_BETWEEN\_PACKAGE}}
+{\footnotesize\ttfamily const int Queu\+::\+MIN\+\_\+\+INTERVAL\+\_\+\+BETWEEN\+\_\+\+PACKAGE = 5\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQueu_aee1d3b3d7dc4cd246c979fb5cb2f7b7b}\label{classQueu_aee1d3b3d7dc4cd246c979fb5cb2f7b7b}} 
+\index{Queu@{Queu}!motor@{motor}}
+\index{motor@{motor}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{motor}{motor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGRBL}{GRBL}} Queu\+::motor = \mbox{\hyperlink{classGRBL}{GRBL}}(\mbox{\hyperlink{Queu_8h_a70b7745e2aab9d369da6e9fcee75be61}{STEPMOTOR\+\_\+\+I2\+C\+\_\+\+ADDR}})}
+
+\mbox{\Hypertarget{classQueu_a16c0f534f26e3b55061a200288d0d95a}\label{classQueu_a16c0f534f26e3b55061a200288d0d95a}} 
+\index{Queu@{Queu}!motorStepCounter@{motorStepCounter}}
+\index{motorStepCounter@{motorStepCounter}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{motorStepCounter}{motorStepCounter}}
+{\footnotesize\ttfamily uint32\+\_\+t Queu\+::motor\+Step\+Counter = 0\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQueu_abd46651a43870e639ed6d1a4a3393c57}\label{classQueu_abd46651a43870e639ed6d1a4a3393c57}} 
+\index{Queu@{Queu}!queu@{queu}}
+\index{queu@{queu}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{queu}{queu}}
+{\footnotesize\ttfamily std\+::list$<$\mbox{\hyperlink{classPackage}{Package}}$>$ Queu\+::queu\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQueu_a3b437046f29fd55e75396e49eb061d03}\label{classQueu_a3b437046f29fd55e75396e49eb061d03}} 
+\index{Queu@{Queu}!servoMotor@{servoMotor}}
+\index{servoMotor@{servoMotor}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{servoMotor}{servoMotor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classServoMotor}{Servo\+Motor}} Queu\+::servo\+Motor\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classQueu_a65e0647efbba63a580c6b32ae6f4892b}\label{classQueu_a65e0647efbba63a580c6b32ae6f4892b}} 
+\index{Queu@{Queu}!SPEED\_STEP\_MOTOR@{SPEED\_STEP\_MOTOR}}
+\index{SPEED\_STEP\_MOTOR@{SPEED\_STEP\_MOTOR}!Queu@{Queu}}
+\doxysubsubsection{\texorpdfstring{SPEED\_STEP\_MOTOR}{SPEED\_STEP\_MOTOR}}
+{\footnotesize\ttfamily const int Queu\+::\+SPEED\+\_\+\+STEP\+\_\+\+MOTOR = 100\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+es\+App/lib/\+Queu/\mbox{\hyperlink{Queu_8h}{Queu.\+h}}\item 
+es\+App/lib/\+Queu/\mbox{\hyperlink{Queu_8cpp}{Queu.\+cpp}}\end{DoxyCompactItemize}

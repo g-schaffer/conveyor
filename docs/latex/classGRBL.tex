@@ -1,0 +1,193 @@
+\hypertarget{classGRBL}{}\doxysection{GRBL Class Reference}
+\label{classGRBL}\index{GRBL@{GRBL}}
+
+
+{\ttfamily \#include $<$MODULE\+\_\+\+GRBL13.\+2.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGRBL_aad8f53add1290d859c210634494e0a06}{GRBL}} (uint8\+\_\+t \mbox{\hyperlink{classGRBL_a8aa97cb36016d017ff398ebbc3a70284}{addr}}=0x70)
+\item 
+void \mbox{\hyperlink{classGRBL_a4f12611d325d3250837c50aafc26d566}{Init}} ()
+\item 
+void \mbox{\hyperlink{classGRBL_a775a41e0ea33362bae5f43a2434d6f74}{Init}} (Two\+Wire $\ast$Wire)
+\item 
+void \mbox{\hyperlink{classGRBL_a11912e0562d610912ce07d3a7681de41}{Init}} (Two\+Wire $\ast$Wire, uint32\+\_\+t x\+\_\+step, uint32\+\_\+t y\+\_\+step, uint32\+\_\+t z\+\_\+step, uint32\+\_\+t acc)
+\item 
+void \mbox{\hyperlink{classGRBL_a51a209e76ac4415d8b0e7ad740eb77d5}{send\+Gcode}} (char $\ast$c)
+\item 
+void \mbox{\hyperlink{classGRBL_aadaad133c5b483905f337431b14209df}{un\+Lock}} ()
+\item 
+void \mbox{\hyperlink{classGRBL_a29baf671e5a3c6bf77256421157026dc}{read\+Clean}} ()
+\item 
+void \mbox{\hyperlink{classGRBL_a2cd0a9afc6d84214b385134f0a44a184}{wait\+Idle}} ()
+\item 
+void \mbox{\hyperlink{classGRBL_a7944745570cb3c054f3621f532a9911c}{set\+Motor}} (int x=0, int y=0, int z=0, int speed=300)
+\item 
+void \mbox{\hyperlink{classGRBL_a87682cdee8853085873d6e2d63f584dd}{set\+Mode}} (String \mbox{\hyperlink{classGRBL_ac2b68b16402f8c0b5927c92c61b9d705}{mode}})
+\item 
+String \mbox{\hyperlink{classGRBL_a17d243debba370aad6ec0f4f7aad1e5b}{read\+Line}} ()
+\item 
+String \mbox{\hyperlink{classGRBL_a96308d85bb560f8f52ec09b924cef8c5}{read\+Status}} ()
+\item 
+bool \mbox{\hyperlink{classGRBL_a9b26e8d60c2ef378ce2f067523ac0081}{read\+Idle}} ()
+\item 
+bool \mbox{\hyperlink{classGRBL_a54dfc344940852e569f951409a22cae3}{in\+Lock}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classGRBL_a8aa97cb36016d017ff398ebbc3a70284}{addr}}
+\item 
+String \mbox{\hyperlink{classGRBL_ac2b68b16402f8c0b5927c92c61b9d705}{mode}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classGRBL_a70138aee6b5f90359cef2eccb921eb5c}{send\+Byte}} (byte b)
+\item 
+void \mbox{\hyperlink{classGRBL_a3a5dc5f143ee1ff34e3ae97d1f0787cf}{send\+Bytes}} (uint8\+\_\+t $\ast$data, size\+\_\+t size)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Two\+Wire $\ast$ \mbox{\hyperlink{classGRBL_a57ecccf8b791c0ce295352228cb751cc}{\+\_\+\+Wire}}
+\item 
+uint8\+\_\+t \mbox{\hyperlink{classGRBL_a88a157a7fa62d10640bfdefb9f18bc91}{\+\_\+addr}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classGRBL_aad8f53add1290d859c210634494e0a06}\label{classGRBL_aad8f53add1290d859c210634494e0a06}} 
+\index{GRBL@{GRBL}!GRBL@{GRBL}}
+\index{GRBL@{GRBL}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{GRBL()}{GRBL()}}
+{\footnotesize\ttfamily GRBL\+::\+GRBL (\begin{DoxyParamCaption}\item[{uint8\+\_\+t}]{addr = {\ttfamily 0x70} }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGRBL_a4f12611d325d3250837c50aafc26d566}\label{classGRBL_a4f12611d325d3250837c50aafc26d566}} 
+\index{GRBL@{GRBL}!Init@{Init}}
+\index{Init@{Init}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void GRBL\+::\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a775a41e0ea33362bae5f43a2434d6f74}\label{classGRBL_a775a41e0ea33362bae5f43a2434d6f74}} 
+\index{GRBL@{GRBL}!Init@{Init}}
+\index{Init@{Init}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void GRBL\+::\+Init (\begin{DoxyParamCaption}\item[{Two\+Wire $\ast$}]{Wire }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a11912e0562d610912ce07d3a7681de41}\label{classGRBL_a11912e0562d610912ce07d3a7681de41}} 
+\index{GRBL@{GRBL}!Init@{Init}}
+\index{Init@{Init}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void GRBL\+::\+Init (\begin{DoxyParamCaption}\item[{Two\+Wire $\ast$}]{Wire,  }\item[{uint32\+\_\+t}]{x\+\_\+step,  }\item[{uint32\+\_\+t}]{y\+\_\+step,  }\item[{uint32\+\_\+t}]{z\+\_\+step,  }\item[{uint32\+\_\+t}]{acc }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a54dfc344940852e569f951409a22cae3}\label{classGRBL_a54dfc344940852e569f951409a22cae3}} 
+\index{GRBL@{GRBL}!inLock@{inLock}}
+\index{inLock@{inLock}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{inLock()}{inLock()}}
+{\footnotesize\ttfamily bool GRBL\+::in\+Lock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a29baf671e5a3c6bf77256421157026dc}\label{classGRBL_a29baf671e5a3c6bf77256421157026dc}} 
+\index{GRBL@{GRBL}!readClean@{readClean}}
+\index{readClean@{readClean}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{readClean()}{readClean()}}
+{\footnotesize\ttfamily void GRBL\+::read\+Clean (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a9b26e8d60c2ef378ce2f067523ac0081}\label{classGRBL_a9b26e8d60c2ef378ce2f067523ac0081}} 
+\index{GRBL@{GRBL}!readIdle@{readIdle}}
+\index{readIdle@{readIdle}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{readIdle()}{readIdle()}}
+{\footnotesize\ttfamily bool GRBL\+::read\+Idle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a17d243debba370aad6ec0f4f7aad1e5b}\label{classGRBL_a17d243debba370aad6ec0f4f7aad1e5b}} 
+\index{GRBL@{GRBL}!readLine@{readLine}}
+\index{readLine@{readLine}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{readLine()}{readLine()}}
+{\footnotesize\ttfamily String GRBL\+::read\+Line (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a96308d85bb560f8f52ec09b924cef8c5}\label{classGRBL_a96308d85bb560f8f52ec09b924cef8c5}} 
+\index{GRBL@{GRBL}!readStatus@{readStatus}}
+\index{readStatus@{readStatus}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{readStatus()}{readStatus()}}
+{\footnotesize\ttfamily String GRBL\+::read\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a70138aee6b5f90359cef2eccb921eb5c}\label{classGRBL_a70138aee6b5f90359cef2eccb921eb5c}} 
+\index{GRBL@{GRBL}!sendByte@{sendByte}}
+\index{sendByte@{sendByte}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{sendByte()}{sendByte()}}
+{\footnotesize\ttfamily void GRBL\+::send\+Byte (\begin{DoxyParamCaption}\item[{byte}]{b }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGRBL_a3a5dc5f143ee1ff34e3ae97d1f0787cf}\label{classGRBL_a3a5dc5f143ee1ff34e3ae97d1f0787cf}} 
+\index{GRBL@{GRBL}!sendBytes@{sendBytes}}
+\index{sendBytes@{sendBytes}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{sendBytes()}{sendBytes()}}
+{\footnotesize\ttfamily void GRBL\+::send\+Bytes (\begin{DoxyParamCaption}\item[{uint8\+\_\+t $\ast$}]{data,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGRBL_a51a209e76ac4415d8b0e7ad740eb77d5}\label{classGRBL_a51a209e76ac4415d8b0e7ad740eb77d5}} 
+\index{GRBL@{GRBL}!sendGcode@{sendGcode}}
+\index{sendGcode@{sendGcode}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{sendGcode()}{sendGcode()}}
+{\footnotesize\ttfamily void GRBL\+::send\+Gcode (\begin{DoxyParamCaption}\item[{char $\ast$}]{c }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a87682cdee8853085873d6e2d63f584dd}\label{classGRBL_a87682cdee8853085873d6e2d63f584dd}} 
+\index{GRBL@{GRBL}!setMode@{setMode}}
+\index{setMode@{setMode}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{setMode()}{setMode()}}
+{\footnotesize\ttfamily void GRBL\+::set\+Mode (\begin{DoxyParamCaption}\item[{String}]{mode }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a7944745570cb3c054f3621f532a9911c}\label{classGRBL_a7944745570cb3c054f3621f532a9911c}} 
+\index{GRBL@{GRBL}!setMotor@{setMotor}}
+\index{setMotor@{setMotor}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{setMotor()}{setMotor()}}
+{\footnotesize\ttfamily void GRBL\+::set\+Motor (\begin{DoxyParamCaption}\item[{int}]{x = {\ttfamily 0},  }\item[{int}]{y = {\ttfamily 0},  }\item[{int}]{z = {\ttfamily 0},  }\item[{int}]{speed = {\ttfamily 300} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_aadaad133c5b483905f337431b14209df}\label{classGRBL_aadaad133c5b483905f337431b14209df}} 
+\index{GRBL@{GRBL}!unLock@{unLock}}
+\index{unLock@{unLock}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{unLock()}{unLock()}}
+{\footnotesize\ttfamily void GRBL\+::un\+Lock (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classGRBL_a2cd0a9afc6d84214b385134f0a44a184}\label{classGRBL_a2cd0a9afc6d84214b385134f0a44a184}} 
+\index{GRBL@{GRBL}!waitIdle@{waitIdle}}
+\index{waitIdle@{waitIdle}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{waitIdle()}{waitIdle()}}
+{\footnotesize\ttfamily void GRBL\+::wait\+Idle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classGRBL_a88a157a7fa62d10640bfdefb9f18bc91}\label{classGRBL_a88a157a7fa62d10640bfdefb9f18bc91}} 
+\index{GRBL@{GRBL}!\_addr@{\_addr}}
+\index{\_addr@{\_addr}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{\_addr}{\_addr}}
+{\footnotesize\ttfamily uint8\+\_\+t GRBL\+::\+\_\+addr\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGRBL_a57ecccf8b791c0ce295352228cb751cc}\label{classGRBL_a57ecccf8b791c0ce295352228cb751cc}} 
+\index{GRBL@{GRBL}!\_Wire@{\_Wire}}
+\index{\_Wire@{\_Wire}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{\_Wire}{\_Wire}}
+{\footnotesize\ttfamily Two\+Wire$\ast$ GRBL\+::\+\_\+\+Wire\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classGRBL_a8aa97cb36016d017ff398ebbc3a70284}\label{classGRBL_a8aa97cb36016d017ff398ebbc3a70284}} 
+\index{GRBL@{GRBL}!addr@{addr}}
+\index{addr@{addr}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{addr}{addr}}
+{\footnotesize\ttfamily int GRBL\+::addr}
+
+\mbox{\Hypertarget{classGRBL_ac2b68b16402f8c0b5927c92c61b9d705}\label{classGRBL_ac2b68b16402f8c0b5927c92c61b9d705}} 
+\index{GRBL@{GRBL}!mode@{mode}}
+\index{mode@{mode}!GRBL@{GRBL}}
+\doxysubsubsection{\texorpdfstring{mode}{mode}}
+{\footnotesize\ttfamily String GRBL\+::mode}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+es\+App/lib/\+GRBL/\mbox{\hyperlink{MODULE__GRBL13_82_8h}{MODULE\+\_\+\+GRBL13.\+2.\+h}}\item 
+es\+App/lib/\+GRBL/\mbox{\hyperlink{MODULE__GRBL13_82_8cpp}{MODULE\+\_\+\+GRBL13.\+2.\+cpp}}\end{DoxyCompactItemize}

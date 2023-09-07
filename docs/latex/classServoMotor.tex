@@ -1,0 +1,141 @@
+\hypertarget{classServoMotor}{}\doxysection{Servo\+Motor Class Reference}
+\label{classServoMotor}\index{ServoMotor@{ServoMotor}}
+
+
+{\ttfamily \#include $<$Servo\+Motor.\+h$>$}
+
+
+
+Collaboration diagram for Servo\+Motor\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=153pt]{classServoMotor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classServoMotor_aee8fd59d894d297335992daaffebbd72}{Servo\+Motor}} ()
+\item 
+void \mbox{\hyperlink{classServoMotor_acb1595935c205e341817d61039842fb9}{turn\+Left}} ()
+\begin{DoxyCompactList}\small\item\em servo motor turns left \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classServoMotor_a9df8987f53dc3cd034d778be64506250}{turn\+Right}} ()
+\begin{DoxyCompactList}\small\item\em servo motor turns right \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classServoMotor_a4786139f727fdbf6b77d8248c2762427}{turn\+Straight}} ()
+\begin{DoxyCompactList}\small\item\em servo motor turns straight \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classServoMotor_a5ba2c8b4ef2c8bf3f3972c4e59166d6c}{turn}} (uint16\+\_\+t angle)
+\begin{DoxyCompactList}\small\item\em servo motor turns to a specific angle \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classGoPlus2}{Go\+Plus2}} \mbox{\hyperlink{classServoMotor_a960bb39479d93e7e521ab58986562d45}{go\+Plus}}
+\item 
+const uint16\+\_\+t \mbox{\hyperlink{classServoMotor_ad9b24a824dcc86bab9e1195571456c90}{angle\+Left}} = 60
+\item 
+const uint16\+\_\+t \mbox{\hyperlink{classServoMotor_aa935385df7840da2c0406069c5f65610}{angle\+Straight}} = 40
+\item 
+const uint16\+\_\+t \mbox{\hyperlink{classServoMotor_a8fcf4fce895f4b8714fc752cc9c7ed54}{angle\+Right}} = 25
+\item 
+int \mbox{\hyperlink{classServoMotor_ad711b7b763478fbc602cb6b9ebe9924b}{speed}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classServoMotor_aee8fd59d894d297335992daaffebbd72}\label{classServoMotor_aee8fd59d894d297335992daaffebbd72}} 
+\index{ServoMotor@{ServoMotor}!ServoMotor@{ServoMotor}}
+\index{ServoMotor@{ServoMotor}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{ServoMotor()}{ServoMotor()}}
+{\footnotesize\ttfamily Servo\+Motor\+::\+Servo\+Motor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classServoMotor_a5ba2c8b4ef2c8bf3f3972c4e59166d6c}\label{classServoMotor_a5ba2c8b4ef2c8bf3f3972c4e59166d6c}} 
+\index{ServoMotor@{ServoMotor}!turn@{turn}}
+\index{turn@{turn}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{turn()}{turn()}}
+{\footnotesize\ttfamily void Servo\+Motor\+::turn (\begin{DoxyParamCaption}\item[{uint16\+\_\+t}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+servo motor turns to a specific angle 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classServoMotor_acb1595935c205e341817d61039842fb9}\label{classServoMotor_acb1595935c205e341817d61039842fb9}} 
+\index{ServoMotor@{ServoMotor}!turnLeft@{turnLeft}}
+\index{turnLeft@{turnLeft}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{turnLeft()}{turnLeft()}}
+{\footnotesize\ttfamily void Servo\+Motor\+::turn\+Left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+servo motor turns left 
+
+\mbox{\Hypertarget{classServoMotor_a9df8987f53dc3cd034d778be64506250}\label{classServoMotor_a9df8987f53dc3cd034d778be64506250}} 
+\index{ServoMotor@{ServoMotor}!turnRight@{turnRight}}
+\index{turnRight@{turnRight}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{turnRight()}{turnRight()}}
+{\footnotesize\ttfamily void Servo\+Motor\+::turn\+Right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+servo motor turns right 
+
+\mbox{\Hypertarget{classServoMotor_a4786139f727fdbf6b77d8248c2762427}\label{classServoMotor_a4786139f727fdbf6b77d8248c2762427}} 
+\index{ServoMotor@{ServoMotor}!turnStraight@{turnStraight}}
+\index{turnStraight@{turnStraight}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{turnStraight()}{turnStraight()}}
+{\footnotesize\ttfamily void Servo\+Motor\+::turn\+Straight (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+servo motor turns straight 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classServoMotor_ad9b24a824dcc86bab9e1195571456c90}\label{classServoMotor_ad9b24a824dcc86bab9e1195571456c90}} 
+\index{ServoMotor@{ServoMotor}!angleLeft@{angleLeft}}
+\index{angleLeft@{angleLeft}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{angleLeft}{angleLeft}}
+{\footnotesize\ttfamily const uint16\+\_\+t Servo\+Motor\+::angle\+Left = 60\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classServoMotor_a8fcf4fce895f4b8714fc752cc9c7ed54}\label{classServoMotor_a8fcf4fce895f4b8714fc752cc9c7ed54}} 
+\index{ServoMotor@{ServoMotor}!angleRight@{angleRight}}
+\index{angleRight@{angleRight}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{angleRight}{angleRight}}
+{\footnotesize\ttfamily const uint16\+\_\+t Servo\+Motor\+::angle\+Right = 25\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classServoMotor_aa935385df7840da2c0406069c5f65610}\label{classServoMotor_aa935385df7840da2c0406069c5f65610}} 
+\index{ServoMotor@{ServoMotor}!angleStraight@{angleStraight}}
+\index{angleStraight@{angleStraight}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{angleStraight}{angleStraight}}
+{\footnotesize\ttfamily const uint16\+\_\+t Servo\+Motor\+::angle\+Straight = 40\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classServoMotor_a960bb39479d93e7e521ab58986562d45}\label{classServoMotor_a960bb39479d93e7e521ab58986562d45}} 
+\index{ServoMotor@{ServoMotor}!goPlus@{goPlus}}
+\index{goPlus@{goPlus}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{goPlus}{goPlus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGoPlus2}{Go\+Plus2}} Servo\+Motor\+::go\+Plus\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classServoMotor_ad711b7b763478fbc602cb6b9ebe9924b}\label{classServoMotor_ad711b7b763478fbc602cb6b9ebe9924b}} 
+\index{ServoMotor@{ServoMotor}!speed@{speed}}
+\index{speed@{speed}!ServoMotor@{ServoMotor}}
+\doxysubsubsection{\texorpdfstring{speed}{speed}}
+{\footnotesize\ttfamily int Servo\+Motor\+::speed\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+es\+App/lib/\+Servo\+Motor/\mbox{\hyperlink{ServoMotor_8h}{Servo\+Motor.\+h}}\item 
+es\+App/lib/\+Servo\+Motor/\mbox{\hyperlink{ServoMotor_8cpp}{Servo\+Motor.\+cpp}}\end{DoxyCompactItemize}

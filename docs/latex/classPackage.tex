@@ -1,0 +1,168 @@
+\hypertarget{classPackage}{}\doxysection{Package Class Reference}
+\label{classPackage}\index{Package@{Package}}
+
+
+{\ttfamily \#include $<$Package.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPackage_ae60e629e6447d060e42220a9c63cc81b}{Package}} (String uuid, String destination, uint32\+\_\+t motor\+Step\+Counter)
+\begin{DoxyCompactList}\small\item\em Construct a new \mbox{\hyperlink{classPackage}{Package}} object. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classPackage_a8be74a18d224924a8f2a155a09fb8bf7}{is\+Delivered}} (uint32\+\_\+t motor\+Step\+Counter)
+\begin{DoxyCompactList}\small\item\em Check if the package is delivered. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classPackage_a5ce0d24d694ba405034baed07a904a4b}{get\+Uuid}} ()
+\begin{DoxyCompactList}\small\item\em Get the Uuid object. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classPackage_a17bdca4e50fa2d60edc323decc606060}{get\+Destination}} ()
+\begin{DoxyCompactList}\small\item\em Get the Destination object. \end{DoxyCompactList}\item 
+uint32\+\_\+t \mbox{\hyperlink{classPackage_a2bb177519709cdaa1c69586bbcedffc8}{get\+Motor\+Step}} ()
+\begin{DoxyCompactList}\small\item\em Get the Motor Step object. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classPackage_ae2e800673da6bd938db6b004a5fc5692}{to\+Json}} ()
+\begin{DoxyCompactList}\small\item\em Get the Json object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classPackage_aca642e7c8abfd81210a6ef1f5522bb34}{m\+\_\+destination}}
+\item 
+String \mbox{\hyperlink{classPackage_affcdea03e3bf51c71dc4553a6758157f}{m\+\_\+uuid}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{classPackage_acbd49b97fbf46b7f0892295d37ada0c5}{m\+\_\+motor\+Step}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int \mbox{\hyperlink{classPackage_a7df27e15847d8a5f6953b147e1447122}{INTERVAL\+\_\+\+RFID\+\_\+\+TO\+\_\+\+DESTINATION}} = 21
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPackage_ae60e629e6447d060e42220a9c63cc81b}\label{classPackage_ae60e629e6447d060e42220a9c63cc81b}} 
+\index{Package@{Package}!Package@{Package}}
+\index{Package@{Package}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{Package()}{Package()}}
+{\footnotesize\ttfamily Package\+::\+Package (\begin{DoxyParamCaption}\item[{String}]{uuid,  }\item[{String}]{destination,  }\item[{uint32\+\_\+t}]{motor\+Step\+Counter }\end{DoxyParamCaption})}
+
+
+
+Construct a new \mbox{\hyperlink{classPackage}{Package}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uuid} & UUID of the package \\
+\hline
+{\em destination} & Destination of the package \\
+\hline
+{\em motor\+Step\+Counter} & Motor step counter\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{classPackage}{Package}} 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPackage_a17bdca4e50fa2d60edc323decc606060}\label{classPackage_a17bdca4e50fa2d60edc323decc606060}} 
+\index{Package@{Package}!getDestination@{getDestination}}
+\index{getDestination@{getDestination}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{getDestination()}{getDestination()}}
+{\footnotesize\ttfamily String Package\+::get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Destination object. 
+
+\begin{DoxyReturn}{Returns}
+String Destination of the package 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPackage_a2bb177519709cdaa1c69586bbcedffc8}\label{classPackage_a2bb177519709cdaa1c69586bbcedffc8}} 
+\index{Package@{Package}!getMotorStep@{getMotorStep}}
+\index{getMotorStep@{getMotorStep}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{getMotorStep()}{getMotorStep()}}
+{\footnotesize\ttfamily uint32\+\_\+t Package\+::get\+Motor\+Step (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Motor Step object. 
+
+\begin{DoxyReturn}{Returns}
+uint32\+\_\+t Motor step counter 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPackage_a5ce0d24d694ba405034baed07a904a4b}\label{classPackage_a5ce0d24d694ba405034baed07a904a4b}} 
+\index{Package@{Package}!getUuid@{getUuid}}
+\index{getUuid@{getUuid}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{getUuid()}{getUuid()}}
+{\footnotesize\ttfamily String Package\+::get\+Uuid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Uuid object. 
+
+\begin{DoxyReturn}{Returns}
+String UUID of the package 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPackage_a8be74a18d224924a8f2a155a09fb8bf7}\label{classPackage_a8be74a18d224924a8f2a155a09fb8bf7}} 
+\index{Package@{Package}!isDelivered@{isDelivered}}
+\index{isDelivered@{isDelivered}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{isDelivered()}{isDelivered()}}
+{\footnotesize\ttfamily bool Package\+::is\+Delivered (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{motor\+Step\+Counter }\end{DoxyParamCaption})}
+
+
+
+Check if the package is delivered. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em motor\+Step\+Counter} & Motor step counter\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true \mbox{\hyperlink{classPackage}{Package}} is delivered 
+
+false \mbox{\hyperlink{classPackage}{Package}} is not delivered 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classPackage_ae2e800673da6bd938db6b004a5fc5692}\label{classPackage_ae2e800673da6bd938db6b004a5fc5692}} 
+\index{Package@{Package}!toJson@{toJson}}
+\index{toJson@{toJson}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{toJson()}{toJson()}}
+{\footnotesize\ttfamily String Package\+::to\+Json (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the Json object. 
+
+\begin{DoxyReturn}{Returns}
+String Json of the package 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classPackage_a7df27e15847d8a5f6953b147e1447122}\label{classPackage_a7df27e15847d8a5f6953b147e1447122}} 
+\index{Package@{Package}!INTERVAL\_RFID\_TO\_DESTINATION@{INTERVAL\_RFID\_TO\_DESTINATION}}
+\index{INTERVAL\_RFID\_TO\_DESTINATION@{INTERVAL\_RFID\_TO\_DESTINATION}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{INTERVAL\_RFID\_TO\_DESTINATION}{INTERVAL\_RFID\_TO\_DESTINATION}}
+{\footnotesize\ttfamily const int Package\+::\+INTERVAL\+\_\+\+RFID\+\_\+\+TO\+\_\+\+DESTINATION = 21\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\mbox{\Hypertarget{classPackage_aca642e7c8abfd81210a6ef1f5522bb34}\label{classPackage_aca642e7c8abfd81210a6ef1f5522bb34}} 
+\index{Package@{Package}!m\_destination@{m\_destination}}
+\index{m\_destination@{m\_destination}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{m\_destination}{m\_destination}}
+{\footnotesize\ttfamily String Package\+::m\+\_\+destination\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classPackage_acbd49b97fbf46b7f0892295d37ada0c5}\label{classPackage_acbd49b97fbf46b7f0892295d37ada0c5}} 
+\index{Package@{Package}!m\_motorStep@{m\_motorStep}}
+\index{m\_motorStep@{m\_motorStep}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{m\_motorStep}{m\_motorStep}}
+{\footnotesize\ttfamily uint32\+\_\+t Package\+::m\+\_\+motor\+Step\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classPackage_affcdea03e3bf51c71dc4553a6758157f}\label{classPackage_affcdea03e3bf51c71dc4553a6758157f}} 
+\index{Package@{Package}!m\_uuid@{m\_uuid}}
+\index{m\_uuid@{m\_uuid}!Package@{Package}}
+\doxysubsubsection{\texorpdfstring{m\_uuid}{m\_uuid}}
+{\footnotesize\ttfamily String Package\+::m\+\_\+uuid\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+es\+App/lib/\+Package/\mbox{\hyperlink{Package_8h}{Package.\+h}}\item 
+es\+App/lib/\+Package/\mbox{\hyperlink{Package_8cpp}{Package.\+cpp}}\end{DoxyCompactItemize}

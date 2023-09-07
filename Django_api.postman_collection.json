@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "7d1cb6d7-e90e-4f4f-ae79-cd9f17e3f953",
+		"name": "Convoyeur (IOT901)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1447003"
+	},
+	"item": [
+		{
+			"name": "Native",
+			"item": [
+				{
+					"name": "api-auth/login",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host_api}}api-auth/login",
+							"host": [
+								"{{host_api}}api-auth"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host_api}}admin",
+							"host": [
+								"{{host_api}}admin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Destination",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host_api}}destination?uuid=5ad9a480-e5b2-4c39-ab47-0bff5b3f0abb",
+					"host": [
+						"{{host_api}}destination"
+					],
+					"query": [
+						{
+							"key": "uuid",
+							"value": "5ad9a480-e5b2-4c39-ab47-0bff5b3f0abb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save queu",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"key\": \"value\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host_api}}queu",
+					"host": [
+						"{{host_api}}queu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get last queu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host_api}}queu",
+					"host": [
+						"{{host_api}}queu"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "host_api",
+			"value": "http://192.168.170.132:8000/"
+		}
+	]
+}

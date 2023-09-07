@@ -1,0 +1,154 @@
+\hypertarget{classRfidDriver}{}\doxysection{Rfid\+Driver Class Reference}
+\label{classRfidDriver}\index{RfidDriver@{RfidDriver}}
+
+
+{\ttfamily \#include $<$Rfid\+Driver.\+h$>$}
+
+
+
+Collaboration diagram for Rfid\+Driver\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classRfidDriver__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structRfidDriver_1_1Variables}{Variables}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRfidDriver_ad197bb67cea42d1cdb6f5d6a9a25d050}{Rfid\+Driver}} ()
+\item 
+void \mbox{\hyperlink{classRfidDriver_a595553f08c6ab88d275269ecb2b3e3de}{init}} ()
+\begin{DoxyCompactList}\small\item\em Init RFID driver. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classRfidDriver_aefe9d817489054971f57f09db61208bb}{read\+Rfid}} ()
+\begin{DoxyCompactList}\small\item\em Read RFID tag. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRfidDriver_ad6d46e4c436371a17305769f4cbea4c0}{set\+Tag\+Detected}} (bool b)
+\begin{DoxyCompactList}\small\item\em Set tag detected. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRfidDriver_a7c349b00f15c8668447da548f650db89}{get\+Tag\+Detected}} ()
+\begin{DoxyCompactList}\small\item\em Get tag detected. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classRfidDriver_ae2fbf9c61771802ffc49f9787227f142}{Show\+Reader\+Details}} ()
+\begin{DoxyCompactList}\small\item\em print reader version \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classRfidDriver_ab71d35e3d4d5f4d16232028d91a39e84}{v\+Task\+RFIDInterrupt}} (void $\ast$pv\+Parameters)
+\begin{DoxyCompactList}\small\item\em Task for simulating interrupt RFID detection. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structRfidDriver_1_1Variables}{Rfid\+Driver\+::\+Variables}} \mbox{\hyperlink{classRfidDriver_a95a7e5225c50bcb99d81f67e9b3df94f}{variables}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRfidDriver_ad197bb67cea42d1cdb6f5d6a9a25d050}\label{classRfidDriver_ad197bb67cea42d1cdb6f5d6a9a25d050}} 
+\index{RfidDriver@{RfidDriver}!RfidDriver@{RfidDriver}}
+\index{RfidDriver@{RfidDriver}!RfidDriver@{RfidDriver}}
+\doxysubsubsection{\texorpdfstring{RfidDriver()}{RfidDriver()}}
+{\footnotesize\ttfamily Rfid\+Driver\+::\+Rfid\+Driver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRfidDriver_a7c349b00f15c8668447da548f650db89}\label{classRfidDriver_a7c349b00f15c8668447da548f650db89}} 
+\index{RfidDriver@{RfidDriver}!getTagDetected@{getTagDetected}}
+\index{getTagDetected@{getTagDetected}!RfidDriver@{RfidDriver}}
+\doxysubsubsection{\texorpdfstring{getTagDetected()}{getTagDetected()}}
+{\footnotesize\ttfamily bool Rfid\+Driver\+::get\+Tag\+Detected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get tag detected. 
+
+\begin{DoxyReturn}{Returns}
+true Tag detected 
+
+false Tag not detected 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRfidDriver_a595553f08c6ab88d275269ecb2b3e3de}\label{classRfidDriver_a595553f08c6ab88d275269ecb2b3e3de}} 
+\index{RfidDriver@{RfidDriver}!init@{init}}
+\index{init@{init}!RfidDriver@{RfidDriver}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Rfid\+Driver\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Init RFID driver. 
+
+\mbox{\Hypertarget{classRfidDriver_aefe9d817489054971f57f09db61208bb}\label{classRfidDriver_aefe9d817489054971f57f09db61208bb}} 
+\index{RfidDriver@{RfidDriver}!readRfid@{readRfid}}
+\index{readRfid@{readRfid}!RfidDriver@{RfidDriver}}
+\doxysubsubsection{\texorpdfstring{readRfid()}{readRfid()}}
+{\footnotesize\ttfamily String Rfid\+Driver\+::read\+Rfid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Read RFID tag. 
+
+\begin{DoxyReturn}{Returns}
+String RFID tag 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classRfidDriver_ad6d46e4c436371a17305769f4cbea4c0}\label{classRfidDriver_ad6d46e4c436371a17305769f4cbea4c0}} 
+\index{RfidDriver@{RfidDriver}!setTagDetected@{setTagDetected}}
+\index{setTagDetected@{setTagDetected}!RfidDriver@{RfidDriver}}
+\doxysubsubsection{\texorpdfstring{setTagDetected()}{setTagDetected()}}
+{\footnotesize\ttfamily void Rfid\+Driver\+::set\+Tag\+Detected (\begin{DoxyParamCaption}\item[{bool}]{b }\end{DoxyParamCaption})}
+
+
+
+Set tag detected. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Tag detected \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRfidDriver_ae2fbf9c61771802ffc49f9787227f142}\label{classRfidDriver_ae2fbf9c61771802ffc49f9787227f142}} 
+\index{RfidDriver@{RfidDriver}!ShowReaderDetails@{ShowReaderDetails}}
+\index{ShowReaderDetails@{ShowReaderDetails}!RfidDriver@{RfidDriver}}
+\doxysubsubsection{\texorpdfstring{ShowReaderDetails()}{ShowReaderDetails()}}
+{\footnotesize\ttfamily void Rfid\+Driver\+::\+Show\+Reader\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+print reader version 
+
+\mbox{\Hypertarget{classRfidDriver_ab71d35e3d4d5f4d16232028d91a39e84}\label{classRfidDriver_ab71d35e3d4d5f4d16232028d91a39e84}} 
+\index{RfidDriver@{RfidDriver}!vTaskRFIDInterrupt@{vTaskRFIDInterrupt}}
+\index{vTaskRFIDInterrupt@{vTaskRFIDInterrupt}!RfidDriver@{RfidDriver}}
+\doxysubsubsection{\texorpdfstring{vTaskRFIDInterrupt()}{vTaskRFIDInterrupt()}}
+{\footnotesize\ttfamily void Rfid\+Driver\+::v\+Task\+RFIDInterrupt (\begin{DoxyParamCaption}\item[{void $\ast$}]{pv\+Parameters }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Task for simulating interrupt RFID detection. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pv\+Parameters} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classRfidDriver_a95a7e5225c50bcb99d81f67e9b3df94f}\label{classRfidDriver_a95a7e5225c50bcb99d81f67e9b3df94f}} 
+\index{RfidDriver@{RfidDriver}!variables@{variables}}
+\index{variables@{variables}!RfidDriver@{RfidDriver}}
+\doxysubsubsection{\texorpdfstring{variables}{variables}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{structRfidDriver_1_1Variables}{Rfid\+Driver\+::\+Variables}} Rfid\+Driver\+::variables\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+es\+App/lib/\+Rfid\+Driver/\mbox{\hyperlink{RfidDriver_8h}{Rfid\+Driver.\+h}}\item 
+es\+App/lib/\+Rfid\+Driver/\mbox{\hyperlink{RfidDriver_8cpp}{Rfid\+Driver.\+cpp}}\end{DoxyCompactItemize}

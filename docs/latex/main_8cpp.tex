@@ -1,0 +1,117 @@
+\hypertarget{main_8cpp}{}\doxysection{es\+App/src/main.cpp File Reference}
+\label{main_8cpp}\index{esApp/src/main.cpp@{esApp/src/main.cpp}}
+
+
+Main file of the project.  
+
+
+{\ttfamily \#include $<$M5\+Stack.\+h$>$}\newline
+{\ttfamily \#include $<$M5\+UI.\+h$>$}\newline
+{\ttfamily \#include $<$Queu.\+h$>$}\newline
+{\ttfamily \#include $<$Rfid\+Driver.\+h$>$}\newline
+Include dependency graph for main.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{main_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a1d49688fde615813c7a8b327629c48d9}{package\+Listener}} ()
+\begin{DoxyCompactList}\small\item\em Listen for a package. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_a4fc01d736fe50cf5b977f755b675f11d}{setup}} ()
+\begin{DoxyCompactList}\small\item\em Main function. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_afe461d27b9c48d5921c00d521181f12f}{loop}} ()
+\begin{DoxyCompactList}\small\item\em Main loop. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \mbox{\hyperlink{main_8cpp_a8f76671ebe3c352e09a8fbf3393e8c84}{MIN\+\_\+\+DELAY\+\_\+\+STEP\+\_\+\+MOTOR}} = 850
+\item 
+\mbox{\hyperlink{classQueu}{Queu}} \mbox{\hyperlink{main_8cpp_a4d28974985e3ac5f2dc6d45b6daf086a}{queu}} = \mbox{\hyperlink{classQueu}{Queu}}()
+\item 
+\mbox{\hyperlink{classRfidDriver}{Rfid\+Driver}} \mbox{\hyperlink{main_8cpp_a8c3c59c9d12a5463925af906a06d23c2}{rfid}} = \mbox{\hyperlink{classRfidDriver}{Rfid\+Driver}}()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main file of the project. 
+
+\begin{DoxyAuthor}{Author}
+Thomas DESCHOMBECK 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2023-\/02-\/03 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8cpp_afe461d27b9c48d5921c00d521181f12f}\label{main_8cpp_afe461d27b9c48d5921c00d521181f12f}} 
+\index{main.cpp@{main.cpp}!loop@{loop}}
+\index{loop@{loop}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{loop()}{loop()}}
+{\footnotesize\ttfamily void loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main loop. 
+
+This is the main loop of the program. It is called repeatedly until the program is stopped.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8cpp_a1d49688fde615813c7a8b327629c48d9}\label{main_8cpp_a1d49688fde615813c7a8b327629c48d9}} 
+\index{main.cpp@{main.cpp}!packageListener@{packageListener}}
+\index{packageListener@{packageListener}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{packageListener()}{packageListener()}}
+{\footnotesize\ttfamily void package\+Listener (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Listen for a package. 
+
+This function listen for a package and add it to the queue if it is detected. It is called in the main loop.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8cpp_a4fc01d736fe50cf5b977f755b675f11d}\label{main_8cpp_a4fc01d736fe50cf5b977f755b675f11d}} 
+\index{main.cpp@{main.cpp}!setup@{setup}}
+\index{setup@{setup}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily void setup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main function. 
+
+This is the main entry point for the program. It is called once at the start of the program.
+
+\begin{DoxyReturn}{Returns}
+0 if the program runs successfully, non-\/zero otherwise 
+\end{DoxyReturn}
+
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{main_8cpp_a8f76671ebe3c352e09a8fbf3393e8c84}\label{main_8cpp_a8f76671ebe3c352e09a8fbf3393e8c84}} 
+\index{main.cpp@{main.cpp}!MIN\_DELAY\_STEP\_MOTOR@{MIN\_DELAY\_STEP\_MOTOR}}
+\index{MIN\_DELAY\_STEP\_MOTOR@{MIN\_DELAY\_STEP\_MOTOR}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{MIN\_DELAY\_STEP\_MOTOR}{MIN\_DELAY\_STEP\_MOTOR}}
+{\footnotesize\ttfamily const int MIN\+\_\+\+DELAY\+\_\+\+STEP\+\_\+\+MOTOR = 850}
+
+\mbox{\Hypertarget{main_8cpp_a4d28974985e3ac5f2dc6d45b6daf086a}\label{main_8cpp_a4d28974985e3ac5f2dc6d45b6daf086a}} 
+\index{main.cpp@{main.cpp}!queu@{queu}}
+\index{queu@{queu}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{queu}{queu}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classQueu}{Queu}} queu = \mbox{\hyperlink{classQueu}{Queu}}()}
+
+\mbox{\Hypertarget{main_8cpp_a8c3c59c9d12a5463925af906a06d23c2}\label{main_8cpp_a8c3c59c9d12a5463925af906a06d23c2}} 
+\index{main.cpp@{main.cpp}!rfid@{rfid}}
+\index{rfid@{rfid}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{rfid}{rfid}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classRfidDriver}{Rfid\+Driver}} rfid = \mbox{\hyperlink{classRfidDriver}{Rfid\+Driver}}()}
+

@@ -1,0 +1,580 @@
+\begin{theindex}
+
+  \item {\_Wire}
+    \subitem {GRBL}, \hyperpage{14}
+  \item {\_addr}
+    \subitem {GRBL}, \hyperpage{14}
+
+  \indexspace
+
+  \item {addr}
+    \subitem {GRBL}, \hyperpage{14}
+  \item {alarm}
+    \subitem {AlarmManager}, \hyperpage{5}
+  \item {AlarmManager}, \hyperpage{5}
+    \subitem {alarm}, \hyperpage{5}
+    \subitem {cantCallAPIAlarm}, \hyperpage{6}
+    \subitem {initWithPackageOnDeliveryAlarm}, \hyperpage{6}
+    \subitem {packageToCloseAlarm}, \hyperpage{6}
+  \item {AlarmManager.h}
+    \subitem {Critical}, \hyperpage{41}
+    \subitem {Criticity}, \hyperpage{41}
+    \subitem {Information}, \hyperpage{41}
+    \subitem {Warning}, \hyperpage{41}
+  \item {angleLeft}
+    \subitem {ServoMotor}, \hyperpage{32}
+  \item {angleRight}
+    \subitem {ServoMotor}, \hyperpage{32}
+  \item {angleStraight}
+    \subitem {ServoMotor}, \hyperpage{32}
+  \item {append}
+    \subitem {Queu}, \hyperpage{22}
+  \item {appendWithUuid}
+    \subitem {Queu}, \hyperpage{22}
+
+  \indexspace
+
+  \item {begin}
+    \subitem {GoPlus2}, \hyperpage{7}
+
+  \indexspace
+
+  \item {cantCallAPIAlarm}
+    \subitem {AlarmManager}, \hyperpage{6}
+  \item {checkIfFrontPackageIsDelivered}
+    \subitem {Queu}, \hyperpage{23}
+  \item {cleanOnDeliveryPackages}
+    \subitem {WifiUtils}, \hyperpage{34}
+  \item {clear}
+    \subitem {Queu}, \hyperpage{23}
+  \item {client}
+    \subitem {Queu}, \hyperpage{26}
+  \item {clientWifi}
+    \subitem {Queu}, \hyperpage{26}
+  \item {connect}
+    \subitem {WifiUtils}, \hyperpage{34}
+  \item {Critical}
+    \subitem {AlarmManager.h}, \hyperpage{41}
+  \item {Criticity}
+    \subitem {AlarmManager.h}, \hyperpage{41}
+
+  \indexspace
+
+  \item {esApp/lib/AlarmManager/AlarmManager.cpp}, \hyperpage{39}
+  \item {esApp/lib/AlarmManager/AlarmManager.h}, \hyperpage{40}
+  \item {esApp/lib/GoPlus2/GoPlus2.cpp}, \hyperpage{42}
+  \item {esApp/lib/GoPlus2/GoPlus2.h}, \hyperpage{42}
+  \item {esApp/lib/GRBL/MODULE\_GRBL13.2.cpp}, \hyperpage{48}
+  \item {esApp/lib/GRBL/MODULE\_GRBL13.2.h}, \hyperpage{48}
+  \item {esApp/lib/M5UI/M5UI.cpp}, \hyperpage{49}
+  \item {esApp/lib/M5UI/M5UI.h}, \hyperpage{50}
+  \item {esApp/lib/Package/Package.cpp}, \hyperpage{52}
+  \item {esApp/lib/Package/Package.h}, \hyperpage{52}
+  \item {esApp/lib/Queu/Queu.cpp}, \hyperpage{53}
+  \item {esApp/lib/Queu/Queu.h}, \hyperpage{54}
+  \item {esApp/lib/RfidDriver/RfidDriver.cpp}, \hyperpage{56}
+  \item {esApp/lib/RfidDriver/RfidDriver.h}, \hyperpage{56}
+  \item {esApp/lib/ServoMotor/ServoMotor.cpp}, \hyperpage{58}
+  \item {esApp/lib/ServoMotor/ServoMotor.h}, \hyperpage{58}
+  \item {esApp/lib/WifiUtils/WifiUtils.cpp}, \hyperpage{60}
+  \item {esApp/lib/WifiUtils/WifiUtils.h}, \hyperpage{60}
+  \item {esApp/src/main.cpp}, \hyperpage{62}
+  \item {exist}
+    \subitem {Queu}, \hyperpage{23}
+
+  \indexspace
+
+  \item {getAll}
+    \subitem {Queu}, \hyperpage{23}
+  \item {getDestination}
+    \subitem {Package}, \hyperpage{18}
+  \item {getMotorStep}
+    \subitem {Package}, \hyperpage{18}
+  \item {getOnDeliveryPackage}
+    \subitem {WifiUtils}, \hyperpage{35}
+  \item {getPackageDestination}
+    \subitem {WifiUtils}, \hyperpage{35}
+  \item {getTagDetected}
+    \subitem {RfidDriver}, \hyperpage{28}
+  \item {getUuid}
+    \subitem {Package}, \hyperpage{18}
+  \item {goPlus}
+    \subitem {ServoMotor}, \hyperpage{32}
+  \item {GoPlus2}, \hyperpage{7}
+    \subitem {begin}, \hyperpage{7}
+    \subitem {GoPlus2}, \hyperpage{7}
+    \subitem {hub1\_a\_read\_value}, \hyperpage{7}
+    \subitem {hub1\_d\_o\_read\_value}, \hyperpage{8}
+    \subitem {hub1\_d\_read\_value}, \hyperpage{8}
+    \subitem {hub1\_set\_io}, \hyperpage{8}
+    \subitem {hub1\_wire\_value}, \hyperpage{8}
+    \subitem {hub2\_a\_read\_value}, \hyperpage{8}
+    \subitem {hub2\_d\_o\_read\_value}, \hyperpage{8}
+    \subitem {hub2\_d\_read\_value}, \hyperpage{8}
+    \subitem {hub2\_set\_io}, \hyperpage{9}
+    \subitem {hub2\_wire\_value}, \hyperpage{9}
+    \subitem {hub3\_a\_read\_value}, \hyperpage{9}
+    \subitem {hub3\_d\_o\_read\_value}, \hyperpage{9}
+    \subitem {hub3\_d\_read\_value}, \hyperpage{9}
+    \subitem {hub3\_set\_io}, \hyperpage{9}
+    \subitem {hub3\_wire\_value}, \hyperpage{10}
+    \subitem {Motor\_write\_speed}, \hyperpage{10}
+    \subitem {Servo\_write\_angle}, \hyperpage{10}
+    \subitem {Servo\_write\_plusewidth}, \hyperpage{10}
+  \item {GoPlus2.h}
+    \subitem {GOPLUS\_ADDR}, \hyperpage{44}
+    \subitem {HUB1\_R\_ADDR}, \hyperpage{44}
+    \subitem {HUB1\_R\_O\_ADDR}, \hyperpage{44}
+    \subitem {HUB1\_W\_ADDR}, \hyperpage{44}
+    \subitem {HUB2\_R\_ADDR}, \hyperpage{44}
+    \subitem {HUB2\_R\_O\_ADDR}, \hyperpage{44}
+    \subitem {HUB2\_W\_ADDR}, \hyperpage{44}
+    \subitem {HUB3\_R\_ADDR}, \hyperpage{45}
+    \subitem {HUB3\_R\_O\_ADDR}, \hyperpage{45}
+    \subitem {HUB3\_W\_ADDR}, \hyperpage{45}
+    \subitem {HUB\_IO\_SET}, \hyperpage{45}
+    \subitem {HUB\_READ\_ANALOG}, \hyperpage{45}
+    \subitem {HUB\_READ\_DIGITAL}, \hyperpage{45}
+    \subitem {HUB\_READ\_O\_DIGITAL}, \hyperpage{45}
+    \subitem {HUB\_WIRE}, \hyperpage{45}
+    \subitem {MOTOR\_ADDR}, \hyperpage{46}
+    \subitem {MOTOR\_NUM0}, \hyperpage{46}
+    \subitem {MOTOR\_NUM1}, \hyperpage{46}
+    \subitem {PLUSE\_ADDR}, \hyperpage{46}
+    \subitem {SERVO\_ADDR}, \hyperpage{46}
+    \subitem {SERVO\_NUM0}, \hyperpage{46}
+    \subitem {SERVO\_NUM0\_PW}, \hyperpage{46}
+    \subitem {SERVO\_NUM1}, \hyperpage{46}
+    \subitem {SERVO\_NUM1\_PW}, \hyperpage{47}
+    \subitem {SERVO\_NUM2}, \hyperpage{47}
+    \subitem {SERVO\_NUM2\_PW}, \hyperpage{47}
+    \subitem {SERVO\_NUM3}, \hyperpage{47}
+    \subitem {SERVO\_NUM3\_PW}, \hyperpage{47}
+  \item {GOPLUS\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{44}
+  \item {GRBL}, \hyperpage{10}
+    \subitem {\_Wire}, \hyperpage{14}
+    \subitem {\_addr}, \hyperpage{14}
+    \subitem {addr}, \hyperpage{14}
+    \subitem {GRBL}, \hyperpage{11}
+    \subitem {Init}, \hyperpage{11, 12}
+    \subitem {inLock}, \hyperpage{12}
+    \subitem {mode}, \hyperpage{14}
+    \subitem {readClean}, \hyperpage{12}
+    \subitem {readIdle}, \hyperpage{12}
+    \subitem {readLine}, \hyperpage{12}
+    \subitem {readStatus}, \hyperpage{12}
+    \subitem {sendByte}, \hyperpage{13}
+    \subitem {sendBytes}, \hyperpage{13}
+    \subitem {sendGcode}, \hyperpage{13}
+    \subitem {setMode}, \hyperpage{13}
+    \subitem {setMotor}, \hyperpage{13}
+    \subitem {unLock}, \hyperpage{13}
+    \subitem {waitIdle}, \hyperpage{14}
+
+  \indexspace
+
+  \item {hub1\_a\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{7}
+  \item {hub1\_d\_o\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{8}
+  \item {hub1\_d\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{8}
+  \item {HUB1\_R\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{44}
+  \item {HUB1\_R\_O\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{44}
+  \item {hub1\_set\_io}
+    \subitem {GoPlus2}, \hyperpage{8}
+  \item {HUB1\_W\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{44}
+  \item {hub1\_wire\_value}
+    \subitem {GoPlus2}, \hyperpage{8}
+  \item {hub2\_a\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{8}
+  \item {hub2\_d\_o\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{8}
+  \item {hub2\_d\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{8}
+  \item {HUB2\_R\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{44}
+  \item {HUB2\_R\_O\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{44}
+  \item {hub2\_set\_io}
+    \subitem {GoPlus2}, \hyperpage{9}
+  \item {HUB2\_W\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{44}
+  \item {hub2\_wire\_value}
+    \subitem {GoPlus2}, \hyperpage{9}
+  \item {hub3\_a\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{9}
+  \item {hub3\_d\_o\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{9}
+  \item {hub3\_d\_read\_value}
+    \subitem {GoPlus2}, \hyperpage{9}
+  \item {HUB3\_R\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{45}
+  \item {HUB3\_R\_O\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{45}
+  \item {hub3\_set\_io}
+    \subitem {GoPlus2}, \hyperpage{9}
+  \item {HUB3\_W\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{45}
+  \item {hub3\_wire\_value}
+    \subitem {GoPlus2}, \hyperpage{10}
+  \item {HUB\_IO\_SET}
+    \subitem {GoPlus2.h}, \hyperpage{45}
+  \item {HUB\_READ\_ANALOG}
+    \subitem {GoPlus2.h}, \hyperpage{45}
+  \item {HUB\_READ\_DIGITAL}
+    \subitem {GoPlus2.h}, \hyperpage{45}
+  \item {HUB\_READ\_O\_DIGITAL}
+    \subitem {GoPlus2.h}, \hyperpage{45}
+  \item {HUB\_WIRE}
+    \subitem {GoPlus2.h}, \hyperpage{45}
+
+  \indexspace
+
+  \item {Information}
+    \subitem {AlarmManager.h}, \hyperpage{41}
+  \item {Init}
+    \subitem {GRBL}, \hyperpage{11, 12}
+  \item {init}
+    \subitem {M5UI}, \hyperpage{15}
+    \subitem {Queu}, \hyperpage{23}
+    \subitem {RfidDriver}, \hyperpage{28}
+  \item {initMotor}
+    \subitem {Queu}, \hyperpage{24}
+  \item {initProgressBar}
+    \subitem {M5UI}, \hyperpage{15}
+  \item {initWifi}
+    \subitem {Queu}, \hyperpage{24}
+  \item {initWithPackageOnDeliveryAlarm}
+    \subitem {AlarmManager}, \hyperpage{6}
+  \item {inLock}
+    \subitem {GRBL}, \hyperpage{12}
+  \item {INTERVAL\_RFID\_TO\_DESTINATION}
+    \subitem {Package}, \hyperpage{19}
+  \item {isConnected}
+    \subitem {WifiUtils}, \hyperpage{35}
+  \item {isDelivered}
+    \subitem {Package}, \hyperpage{19}
+
+  \indexspace
+
+  \item {lastEventUI}
+    \subitem {Queu}, \hyperpage{24}
+  \item {loop}
+    \subitem {main.cpp}, \hyperpage{63}
+
+  \indexspace
+
+  \item {M5STACK\_FIRE\_NEO\_DATA\_PIN}
+    \subitem {M5UI.h}, \hyperpage{51}
+  \item {M5STACK\_FIRE\_NEO\_NUM\_LEDS}
+    \subitem {M5UI.h}, \hyperpage{51}
+  \item {M5UI}, \hyperpage{14}
+    \subitem {init}, \hyperpage{15}
+    \subitem {initProgressBar}, \hyperpage{15}
+    \subitem {M5UI}, \hyperpage{15}
+    \subitem {notificationRFIDReadWithError}, \hyperpage{16}
+    \subitem {notificationRFIDReadWithSuccess}, \hyperpage{16}
+    \subitem {printTotalPackagesOnDelivery}, \hyperpage{16}
+    \subitem {printWaitPackages}, \hyperpage{16}
+    \subitem {runLight}, \hyperpage{16}
+    \subitem {speakerBipWithLight}, \hyperpage{16}
+  \item {M5UI.h}
+    \subitem {M5STACK\_FIRE\_NEO\_DATA\_PIN}, \hyperpage{51}
+    \subitem {M5STACK\_FIRE\_NEO\_NUM\_LEDS}, \hyperpage{51}
+  \item {m\_destination}
+    \subitem {Package}, \hyperpage{19}
+  \item {m\_motorStep}
+    \subitem {Package}, \hyperpage{20}
+  \item {m\_uuid}
+    \subitem {Package}, \hyperpage{20}
+  \item {main.cpp}
+    \subitem {loop}, \hyperpage{63}
+    \subitem {MIN\_DELAY\_STEP\_MOTOR}, \hyperpage{63}
+    \subitem {packageListener}, \hyperpage{63}
+    \subitem {queu}, \hyperpage{63}
+    \subitem {rfid}, \hyperpage{63}
+    \subitem {setup}, \hyperpage{63}
+  \item {mfrc522}
+    \subitem {RfidDriver::Variables}, \hyperpage{33}
+  \item {MIN\_DELAY\_STEP\_MOTOR}
+    \subitem {main.cpp}, \hyperpage{63}
+  \item {MIN\_INTERVAL\_BETWEEN\_PACKAGE}
+    \subitem {Queu}, \hyperpage{26}
+  \item {mode}
+    \subitem {GRBL}, \hyperpage{14}
+  \item {motor}
+    \subitem {Queu}, \hyperpage{26}
+  \item {MOTOR\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{46}
+  \item {MOTOR\_NUM0}
+    \subitem {GoPlus2.h}, \hyperpage{46}
+  \item {MOTOR\_NUM1}
+    \subitem {GoPlus2.h}, \hyperpage{46}
+  \item {Motor\_write\_speed}
+    \subitem {GoPlus2}, \hyperpage{10}
+  \item {motorForward}
+    \subitem {Queu}, \hyperpage{24}
+  \item {motorStepCounter}
+    \subitem {Queu}, \hyperpage{26}
+
+  \indexspace
+
+  \item {notificationRFIDReadWithError}
+    \subitem {M5UI}, \hyperpage{16}
+  \item {notificationRFIDReadWithSuccess}
+    \subitem {M5UI}, \hyperpage{16}
+
+  \indexspace
+
+  \item {Package}, \hyperpage{17}
+    \subitem {getDestination}, \hyperpage{18}
+    \subitem {getMotorStep}, \hyperpage{18}
+    \subitem {getUuid}, \hyperpage{18}
+    \subitem {INTERVAL\_RFID\_TO\_DESTINATION}, \hyperpage{19}
+    \subitem {isDelivered}, \hyperpage{19}
+    \subitem {m\_destination}, \hyperpage{19}
+    \subitem {m\_motorStep}, \hyperpage{20}
+    \subitem {m\_uuid}, \hyperpage{20}
+    \subitem {Package}, \hyperpage{18}
+    \subitem {toJson}, \hyperpage{19}
+  \item {packageListener}
+    \subitem {main.cpp}, \hyperpage{63}
+  \item {packageToCloseAlarm}
+    \subitem {AlarmManager}, \hyperpage{6}
+  \item {PLUSE\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{46}
+  \item {pop\_front}
+    \subitem {Queu}, \hyperpage{24}
+  \item {postAlarm}
+    \subitem {WifiUtils}, \hyperpage{35}
+  \item {postDeliveredPackage}
+    \subitem {WifiUtils}, \hyperpage{36}
+  \item {postResetAlarm}
+    \subitem {WifiUtils}, \hyperpage{36}
+  \item {printTotalPackagesOnDelivery}
+    \subitem {M5UI}, \hyperpage{16}
+  \item {printWaitPackages}
+    \subitem {M5UI}, \hyperpage{16}
+
+  \indexspace
+
+  \item {Queu}, \hyperpage{20}
+    \subitem {append}, \hyperpage{22}
+    \subitem {appendWithUuid}, \hyperpage{22}
+    \subitem {checkIfFrontPackageIsDelivered}, \hyperpage{23}
+    \subitem {clear}, \hyperpage{23}
+    \subitem {client}, \hyperpage{26}
+    \subitem {clientWifi}, \hyperpage{26}
+    \subitem {exist}, \hyperpage{23}
+    \subitem {getAll}, \hyperpage{23}
+    \subitem {init}, \hyperpage{23}
+    \subitem {initMotor}, \hyperpage{24}
+    \subitem {initWifi}, \hyperpage{24}
+    \subitem {lastEventUI}, \hyperpage{24}
+    \subitem {MIN\_INTERVAL\_BETWEEN\_PACKAGE}, \hyperpage{26}
+    \subitem {motor}, \hyperpage{26}
+    \subitem {motorForward}, \hyperpage{24}
+    \subitem {motorStepCounter}, \hyperpage{26}
+    \subitem {pop\_front}, \hyperpage{24}
+    \subitem {Queu}, \hyperpage{22}
+    \subitem {queu}, \hyperpage{26}
+    \subitem {servoMotor}, \hyperpage{27}
+    \subitem {size}, \hyperpage{25}
+    \subitem {SPEED\_STEP\_MOTOR}, \hyperpage{27}
+    \subitem {toJson}, \hyperpage{25}
+    \subitem {updateServoMotor}, \hyperpage{25}
+    \subitem {uuidExist}, \hyperpage{25}
+  \item {queu}
+    \subitem {main.cpp}, \hyperpage{63}
+    \subitem {Queu}, \hyperpage{26}
+  \item {Queu.h}
+    \subitem {STEP\_MOTOR\_SCL}, \hyperpage{55}
+    \subitem {STEP\_MOTOR\_SDA}, \hyperpage{56}
+    \subitem {STEPMOTOR\_I2C\_ADDR}, \hyperpage{56}
+
+  \indexspace
+
+  \item {readClean}
+    \subitem {GRBL}, \hyperpage{12}
+  \item {readIdle}
+    \subitem {GRBL}, \hyperpage{12}
+  \item {readLine}
+    \subitem {GRBL}, \hyperpage{12}
+  \item {readRfid}
+    \subitem {RfidDriver}, \hyperpage{29}
+  \item {readStatus}
+    \subitem {GRBL}, \hyperpage{12}
+  \item {rfid}
+    \subitem {main.cpp}, \hyperpage{63}
+  \item {RfidDriver}, \hyperpage{27}
+    \subitem {getTagDetected}, \hyperpage{28}
+    \subitem {init}, \hyperpage{28}
+    \subitem {readRfid}, \hyperpage{29}
+    \subitem {RfidDriver}, \hyperpage{28}
+    \subitem {setTagDetected}, \hyperpage{29}
+    \subitem {ShowReaderDetails}, \hyperpage{29}
+    \subitem {variables}, \hyperpage{30}
+    \subitem {vTaskRFIDInterrupt}, \hyperpage{29}
+  \item {RfidDriver.h}
+    \subitem {RST\_PIN}, \hyperpage{57}
+    \subitem {SS\_PIN}, \hyperpage{57}
+  \item {RfidDriver::Variables}, \hyperpage{33}
+    \subitem {mfrc522}, \hyperpage{33}
+    \subitem {tagDetected}, \hyperpage{33}
+  \item {RST\_PIN}
+    \subitem {RfidDriver.h}, \hyperpage{57}
+  \item {runLight}
+    \subitem {M5UI}, \hyperpage{16}
+
+  \indexspace
+
+  \item {sendByte}
+    \subitem {GRBL}, \hyperpage{13}
+  \item {sendBytes}
+    \subitem {GRBL}, \hyperpage{13}
+  \item {sendGcode}
+    \subitem {GRBL}, \hyperpage{13}
+  \item {sendRequest}
+    \subitem {WifiUtils}, \hyperpage{36}
+  \item {SERVER\_ADDRESS}
+    \subitem {WifiUtils.h}, \hyperpage{61}
+  \item {SERVO\_ADDR}
+    \subitem {GoPlus2.h}, \hyperpage{46}
+  \item {SERVO\_NUM0}
+    \subitem {GoPlus2.h}, \hyperpage{46}
+  \item {SERVO\_NUM0\_PW}
+    \subitem {GoPlus2.h}, \hyperpage{46}
+  \item {SERVO\_NUM1}
+    \subitem {GoPlus2.h}, \hyperpage{46}
+  \item {SERVO\_NUM1\_PW}
+    \subitem {GoPlus2.h}, \hyperpage{47}
+  \item {SERVO\_NUM2}
+    \subitem {GoPlus2.h}, \hyperpage{47}
+  \item {SERVO\_NUM2\_PW}
+    \subitem {GoPlus2.h}, \hyperpage{47}
+  \item {SERVO\_NUM3}
+    \subitem {GoPlus2.h}, \hyperpage{47}
+  \item {SERVO\_NUM3\_PW}
+    \subitem {GoPlus2.h}, \hyperpage{47}
+  \item {Servo\_write\_angle}
+    \subitem {GoPlus2}, \hyperpage{10}
+  \item {Servo\_write\_plusewidth}
+    \subitem {GoPlus2}, \hyperpage{10}
+  \item {ServoMotor}, \hyperpage{30}
+    \subitem {angleLeft}, \hyperpage{32}
+    \subitem {angleRight}, \hyperpage{32}
+    \subitem {angleStraight}, \hyperpage{32}
+    \subitem {goPlus}, \hyperpage{32}
+    \subitem {ServoMotor}, \hyperpage{31}
+    \subitem {speed}, \hyperpage{32}
+    \subitem {turn}, \hyperpage{31}
+    \subitem {turnLeft}, \hyperpage{31}
+    \subitem {turnRight}, \hyperpage{31}
+    \subitem {turnStraight}, \hyperpage{32}
+  \item {servoMotor}
+    \subitem {Queu}, \hyperpage{27}
+  \item {setMode}
+    \subitem {GRBL}, \hyperpage{13}
+  \item {setMotor}
+    \subitem {GRBL}, \hyperpage{13}
+  \item {setTagDetected}
+    \subitem {RfidDriver}, \hyperpage{29}
+  \item {setup}
+    \subitem {main.cpp}, \hyperpage{63}
+  \item {ShowReaderDetails}
+    \subitem {RfidDriver}, \hyperpage{29}
+  \item {size}
+    \subitem {Queu}, \hyperpage{25}
+  \item {speakerBipWithLight}
+    \subitem {M5UI}, \hyperpage{16}
+  \item {speed}
+    \subitem {ServoMotor}, \hyperpage{32}
+  \item {SPEED\_STEP\_MOTOR}
+    \subitem {Queu}, \hyperpage{27}
+  \item {SS\_PIN}
+    \subitem {RfidDriver.h}, \hyperpage{57}
+  \item {STEP\_MOTOR\_SCL}
+    \subitem {Queu.h}, \hyperpage{55}
+  \item {STEP\_MOTOR\_SDA}
+    \subitem {Queu.h}, \hyperpage{56}
+  \item {STEPMOTOR\_I2C\_ADDR}
+    \subitem {Queu.h}, \hyperpage{56}
+
+  \indexspace
+
+  \item {tagDetected}
+    \subitem {RfidDriver::Variables}, \hyperpage{33}
+  \item {toJson}
+    \subitem {Package}, \hyperpage{19}
+    \subitem {Queu}, \hyperpage{25}
+  \item {turn}
+    \subitem {ServoMotor}, \hyperpage{31}
+  \item {turnLeft}
+    \subitem {ServoMotor}, \hyperpage{31}
+  \item {turnRight}
+    \subitem {ServoMotor}, \hyperpage{31}
+  \item {turnStraight}
+    \subitem {ServoMotor}, \hyperpage{32}
+
+  \indexspace
+
+  \item {unLock}
+    \subitem {GRBL}, \hyperpage{13}
+  \item {updateServoMotor}
+    \subitem {Queu}, \hyperpage{25}
+  \item {URL\_ALARM}
+    \subitem {WifiUtils}, \hyperpage{37}
+  \item {URL\_DELIVERED}
+    \subitem {WifiUtils}, \hyperpage{37}
+  \item {URL\_DESTINATION}
+    \subitem {WifiUtils}, \hyperpage{37}
+  \item {URL\_ON\_DELIVERY}
+    \subitem {WifiUtils}, \hyperpage{37}
+  \item {URL\_RESET\_ALARM}
+    \subitem {WifiUtils}, \hyperpage{37}
+  \item {uuidExist}
+    \subitem {Queu}, \hyperpage{25}
+
+  \indexspace
+
+  \item {variables}
+    \subitem {RfidDriver}, \hyperpage{30}
+  \item {vTaskRFIDInterrupt}
+    \subitem {RfidDriver}, \hyperpage{29}
+
+  \indexspace
+
+  \item {waitIdle}
+    \subitem {GRBL}, \hyperpage{14}
+  \item {Warning}
+    \subitem {AlarmManager.h}, \hyperpage{41}
+  \item {WIFI\_PASSWORD}
+    \subitem {WifiUtils.h}, \hyperpage{61}
+  \item {WIFI\_SSID}
+    \subitem {WifiUtils.h}, \hyperpage{61}
+  \item {WifiUtils}, \hyperpage{33}
+    \subitem {cleanOnDeliveryPackages}, \hyperpage{34}
+    \subitem {connect}, \hyperpage{34}
+    \subitem {getOnDeliveryPackage}, \hyperpage{35}
+    \subitem {getPackageDestination}, \hyperpage{35}
+    \subitem {isConnected}, \hyperpage{35}
+    \subitem {postAlarm}, \hyperpage{35}
+    \subitem {postDeliveredPackage}, \hyperpage{36}
+    \subitem {postResetAlarm}, \hyperpage{36}
+    \subitem {sendRequest}, \hyperpage{36}
+    \subitem {URL\_ALARM}, \hyperpage{37}
+    \subitem {URL\_DELIVERED}, \hyperpage{37}
+    \subitem {URL\_DESTINATION}, \hyperpage{37}
+    \subitem {URL\_ON\_DELIVERY}, \hyperpage{37}
+    \subitem {URL\_RESET\_ALARM}, \hyperpage{37}
+  \item {WifiUtils.h}
+    \subitem {SERVER\_ADDRESS}, \hyperpage{61}
+    \subitem {WIFI\_PASSWORD}, \hyperpage{61}
+    \subitem {WIFI\_SSID}, \hyperpage{61}
+
+\end{theindex}

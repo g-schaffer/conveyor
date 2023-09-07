@@ -1,0 +1,229 @@
+\hypertarget{classWifiUtils}{}\doxysection{Wifi\+Utils Class Reference}
+\label{classWifiUtils}\index{WifiUtils@{WifiUtils}}
+
+
+{\ttfamily \#include $<$Wifi\+Utils.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classWifiUtils_a275c7a7855fa9e44c8957de77104777f}{connect}} (const char $\ast$ssid, const char $\ast$password)
+\begin{DoxyCompactList}\small\item\em connect ESP to wifi \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classWifiUtils_a080d820cd18d389f092821ba2ab25c2c}{get\+On\+Delivery\+Package}} ()
+\begin{DoxyCompactList}\small\item\em call API, get the number of the package on delivery \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classWifiUtils_a59a69076fb025bcb5486a5ab29cdb0f7}{clean\+On\+Delivery\+Packages}} ()
+\begin{DoxyCompactList}\small\item\em in case of brutal shutdown, call API to get list of packages in convoyor \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classWifiUtils_abc6a98a0c841c3e414f397b6cc010127}{get\+Package\+Destination}} (String uuid)
+\begin{DoxyCompactList}\small\item\em Call API, get the destination of the package. \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classWifiUtils_a5619c1b8cf4b8f9648aa7644525fa8b1}{post\+Delivered\+Package}} (String uuid)
+\begin{DoxyCompactList}\small\item\em call API, push the delivered package \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classWifiUtils_a4ae0f4cb1a19911e734537dd7d695a69}{post\+Alarm}} (String message)
+\begin{DoxyCompactList}\small\item\em call API because alarm is on \end{DoxyCompactList}\item 
+String \mbox{\hyperlink{classWifiUtils_a48e1cd2e345313ec9f60f8c482b6ed2b}{post\+Reset\+Alarm}} ()
+\begin{DoxyCompactList}\small\item\em call API because alarm shutdown \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classWifiUtils_a37f09f98c63601e88a9f70e4e73b435e}{is\+Connected}} ()
+\begin{DoxyCompactList}\small\item\em returns bool if API is connected or not \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const String \mbox{\hyperlink{classWifiUtils_a98494af368b722675311161866744c73}{URL\+\_\+\+DESTINATION}} = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}destination?uuid=\char`\"{}
+\item 
+const String \mbox{\hyperlink{classWifiUtils_a9dd3405d025be5fe0134ca17314c1944}{URL\+\_\+\+ON\+\_\+\+DELIVERY}} = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}on\+Delivery\char`\"{}
+\item 
+const String \mbox{\hyperlink{classWifiUtils_aa7ae26de745459c7545fd0111c8a46fd}{URL\+\_\+\+DELIVERED}} = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}delivered\char`\"{}
+\item 
+const String \mbox{\hyperlink{classWifiUtils_abc02cd8fabbcc2e63a195540b14df2cb}{URL\+\_\+\+ALARM}} = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}alarm\char`\"{}
+\item 
+const String \mbox{\hyperlink{classWifiUtils_ad440c8f255bde5101aa7d745c313bd8e}{URL\+\_\+\+RESET\+\_\+\+ALARM}} = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}reset\+Alarm\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+String \mbox{\hyperlink{classWifiUtils_a4d3094543dfb592d39f986fdd6ca458c}{send\+Request}} (String method, String url, String body)
+\begin{DoxyCompactList}\small\item\em send http request to api \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classWifiUtils_a59a69076fb025bcb5486a5ab29cdb0f7}\label{classWifiUtils_a59a69076fb025bcb5486a5ab29cdb0f7}} 
+\index{WifiUtils@{WifiUtils}!cleanOnDeliveryPackages@{cleanOnDeliveryPackages}}
+\index{cleanOnDeliveryPackages@{cleanOnDeliveryPackages}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{cleanOnDeliveryPackages()}{cleanOnDeliveryPackages()}}
+{\footnotesize\ttfamily String Wifi\+Utils\+::clean\+On\+Delivery\+Packages (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+in case of brutal shutdown, call API to get list of packages in convoyor 
+
+\begin{DoxyReturn}{Returns}
+String list of packages 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classWifiUtils_a275c7a7855fa9e44c8957de77104777f}\label{classWifiUtils_a275c7a7855fa9e44c8957de77104777f}} 
+\index{WifiUtils@{WifiUtils}!connect@{connect}}
+\index{connect@{connect}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{connect()}{connect()}}
+{\footnotesize\ttfamily bool Wifi\+Utils\+::connect (\begin{DoxyParamCaption}\item[{const char $\ast$}]{ssid,  }\item[{const char $\ast$}]{password }\end{DoxyParamCaption})}
+
+
+
+connect ESP to wifi 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ssid} & wifi id \\
+\hline
+{\em password} & password wifi \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classWifiUtils_a080d820cd18d389f092821ba2ab25c2c}\label{classWifiUtils_a080d820cd18d389f092821ba2ab25c2c}} 
+\index{WifiUtils@{WifiUtils}!getOnDeliveryPackage@{getOnDeliveryPackage}}
+\index{getOnDeliveryPackage@{getOnDeliveryPackage}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{getOnDeliveryPackage()}{getOnDeliveryPackage()}}
+{\footnotesize\ttfamily int Wifi\+Utils\+::get\+On\+Delivery\+Package (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+call API, get the number of the package on delivery 
+
+\mbox{\Hypertarget{classWifiUtils_abc6a98a0c841c3e414f397b6cc010127}\label{classWifiUtils_abc6a98a0c841c3e414f397b6cc010127}} 
+\index{WifiUtils@{WifiUtils}!getPackageDestination@{getPackageDestination}}
+\index{getPackageDestination@{getPackageDestination}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{getPackageDestination()}{getPackageDestination()}}
+{\footnotesize\ttfamily String Wifi\+Utils\+::get\+Package\+Destination (\begin{DoxyParamCaption}\item[{String}]{uuid }\end{DoxyParamCaption})}
+
+
+
+Call API, get the destination of the package. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uuid} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String destination 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classWifiUtils_a37f09f98c63601e88a9f70e4e73b435e}\label{classWifiUtils_a37f09f98c63601e88a9f70e4e73b435e}} 
+\index{WifiUtils@{WifiUtils}!isConnected@{isConnected}}
+\index{isConnected@{isConnected}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{isConnected()}{isConnected()}}
+{\footnotesize\ttfamily bool Wifi\+Utils\+::is\+Connected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+returns bool if API is connected or not 
+
+\begin{DoxyReturn}{Returns}
+true API is connected 
+
+false API is not connected 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classWifiUtils_a4ae0f4cb1a19911e734537dd7d695a69}\label{classWifiUtils_a4ae0f4cb1a19911e734537dd7d695a69}} 
+\index{WifiUtils@{WifiUtils}!postAlarm@{postAlarm}}
+\index{postAlarm@{postAlarm}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{postAlarm()}{postAlarm()}}
+{\footnotesize\ttfamily String Wifi\+Utils\+::post\+Alarm (\begin{DoxyParamCaption}\item[{String}]{message }\end{DoxyParamCaption})}
+
+
+
+call API because alarm is on 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & error message \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classWifiUtils_a5619c1b8cf4b8f9648aa7644525fa8b1}\label{classWifiUtils_a5619c1b8cf4b8f9648aa7644525fa8b1}} 
+\index{WifiUtils@{WifiUtils}!postDeliveredPackage@{postDeliveredPackage}}
+\index{postDeliveredPackage@{postDeliveredPackage}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{postDeliveredPackage()}{postDeliveredPackage()}}
+{\footnotesize\ttfamily String Wifi\+Utils\+::post\+Delivered\+Package (\begin{DoxyParamCaption}\item[{String}]{uuid }\end{DoxyParamCaption})}
+
+
+
+call API, push the delivered package 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uuid} & package id \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classWifiUtils_a48e1cd2e345313ec9f60f8c482b6ed2b}\label{classWifiUtils_a48e1cd2e345313ec9f60f8c482b6ed2b}} 
+\index{WifiUtils@{WifiUtils}!postResetAlarm@{postResetAlarm}}
+\index{postResetAlarm@{postResetAlarm}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{postResetAlarm()}{postResetAlarm()}}
+{\footnotesize\ttfamily String Wifi\+Utils\+::post\+Reset\+Alarm (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+call API because alarm shutdown 
+
+\begin{DoxyReturn}{Returns}
+String 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classWifiUtils_a4d3094543dfb592d39f986fdd6ca458c}\label{classWifiUtils_a4d3094543dfb592d39f986fdd6ca458c}} 
+\index{WifiUtils@{WifiUtils}!sendRequest@{sendRequest}}
+\index{sendRequest@{sendRequest}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{sendRequest()}{sendRequest()}}
+{\footnotesize\ttfamily String Wifi\+Utils\+::send\+Request (\begin{DoxyParamCaption}\item[{String}]{method,  }\item[{String}]{url,  }\item[{String}]{body }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+send http request to api 
+
+
+\begin{DoxyParams}{Parameters}
+{\em method} & \\
+\hline
+{\em url} & \\
+\hline
+{\em body} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+String response from server 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classWifiUtils_abc02cd8fabbcc2e63a195540b14df2cb}\label{classWifiUtils_abc02cd8fabbcc2e63a195540b14df2cb}} 
+\index{WifiUtils@{WifiUtils}!URL\_ALARM@{URL\_ALARM}}
+\index{URL\_ALARM@{URL\_ALARM}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{URL\_ALARM}{URL\_ALARM}}
+{\footnotesize\ttfamily const String Wifi\+Utils\+::\+URL\+\_\+\+ALARM = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}alarm\char`\"{}}
+
+\mbox{\Hypertarget{classWifiUtils_aa7ae26de745459c7545fd0111c8a46fd}\label{classWifiUtils_aa7ae26de745459c7545fd0111c8a46fd}} 
+\index{WifiUtils@{WifiUtils}!URL\_DELIVERED@{URL\_DELIVERED}}
+\index{URL\_DELIVERED@{URL\_DELIVERED}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{URL\_DELIVERED}{URL\_DELIVERED}}
+{\footnotesize\ttfamily const String Wifi\+Utils\+::\+URL\+\_\+\+DELIVERED = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}delivered\char`\"{}}
+
+\mbox{\Hypertarget{classWifiUtils_a98494af368b722675311161866744c73}\label{classWifiUtils_a98494af368b722675311161866744c73}} 
+\index{WifiUtils@{WifiUtils}!URL\_DESTINATION@{URL\_DESTINATION}}
+\index{URL\_DESTINATION@{URL\_DESTINATION}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{URL\_DESTINATION}{URL\_DESTINATION}}
+{\footnotesize\ttfamily const String Wifi\+Utils\+::\+URL\+\_\+\+DESTINATION = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}destination?uuid=\char`\"{}}
+
+\mbox{\Hypertarget{classWifiUtils_a9dd3405d025be5fe0134ca17314c1944}\label{classWifiUtils_a9dd3405d025be5fe0134ca17314c1944}} 
+\index{WifiUtils@{WifiUtils}!URL\_ON\_DELIVERY@{URL\_ON\_DELIVERY}}
+\index{URL\_ON\_DELIVERY@{URL\_ON\_DELIVERY}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{URL\_ON\_DELIVERY}{URL\_ON\_DELIVERY}}
+{\footnotesize\ttfamily const String Wifi\+Utils\+::\+URL\+\_\+\+ON\+\_\+\+DELIVERY = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}on\+Delivery\char`\"{}}
+
+\mbox{\Hypertarget{classWifiUtils_ad440c8f255bde5101aa7d745c313bd8e}\label{classWifiUtils_ad440c8f255bde5101aa7d745c313bd8e}} 
+\index{WifiUtils@{WifiUtils}!URL\_RESET\_ALARM@{URL\_RESET\_ALARM}}
+\index{URL\_RESET\_ALARM@{URL\_RESET\_ALARM}!WifiUtils@{WifiUtils}}
+\doxysubsubsection{\texorpdfstring{URL\_RESET\_ALARM}{URL\_RESET\_ALARM}}
+{\footnotesize\ttfamily const String Wifi\+Utils\+::\+URL\+\_\+\+RESET\+\_\+\+ALARM = String(\mbox{\hyperlink{WifiUtils_8h_aa6cecb8c404241c624e83aee8a3979d2}{SERVER\+\_\+\+ADDRESS}}) + \char`\"{}reset\+Alarm\char`\"{}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+es\+App/lib/\+Wifi\+Utils/\mbox{\hyperlink{WifiUtils_8h}{Wifi\+Utils.\+h}}\item 
+es\+App/lib/\+Wifi\+Utils/\mbox{\hyperlink{WifiUtils_8cpp}{Wifi\+Utils.\+cpp}}\end{DoxyCompactItemize}
